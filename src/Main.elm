@@ -127,6 +127,7 @@ acts model page =
     ( { model
         | filestate = Loading
         , currentpage = page
+        , mobilenav = "closed"
       }
     , Http.get
         { url = page
@@ -183,10 +184,10 @@ update msg model =
         DayOrNight ->
             case model.light of
                 Day ->
-                    ( { model | light = Night }, Cmd.none )
+                    ( { model | light = Night , mobilenav = "closed" }, Cmd.none )
 
                 Night ->
-                    ( { model | light = Day }, Cmd.none )
+                    ( { model | light = Day , mobilenav = "closed" }, Cmd.none )
 
         MobileNav ->
             case model.mobilemenu of

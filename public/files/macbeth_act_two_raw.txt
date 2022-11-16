@@ -1,6 +1,5 @@
-# Második felvonás
-## Első szín. Macbeth várának udvara.
-
+## Második felvonás
+### Első szín. Macbeth várának udvara.
 *Belép BANQUO és FLEANCE, aki egy fáklyát tart előtte*
 
 ### BANQUO
@@ -12,52 +11,52 @@ Pedig éjfélkor megy le.
 ### FLEANCE
 Szerintem egy kicsit később, uram.
 ### BANQUO
-Nesze, kicsit vidd a kardom.    
-A csillagok is spórolnak,     
-Minden gyertyát elfújtak.   
-Ólomnehezek a tagjaim,  
-Mégsem megy az alvás:   
-Nyájas angyalok, csitítsátok    
-Az istenverte emlékeket, melyek      
-Nem hagynak pihenni!    
+Nesze, kicsit vidd a kardom.
+A csillagok nem pazarolnak,
+Minden gyertyát elfújtak.
+Ólomnehezek a tagjaim,
+Mégsem megy az alvás:
+Nyájas angyalok, csitítsátok
+Az istenverte emlékeket, melyek
+Nem hagynak pihenni!
 
 *Belép MACBETH és egy fáklyás szolga*
 
-Add vissza gyorsan a kardom.    
+Add vissza gyorsan a kardom.
 Ki az ott?
 ### MACBETH
 Barátod.
 ### BANQUO
-Hát nem alszik még, jóuram?       
-A király már már lefeküdt:      
-Rendkívűl jól érezte magát,     
-Házad népét bőkezűen megjutalmazta,      
-Nejed végig magasztalta,    
-Ő egy gyémántot kapott  
-És végül a király, mikor ütött az óra      
-Iszonyú elégedetten tért nyugovóra.  
+Hát nem alszik még, jóuram?
+A király már már lefeküdt:
+Rendkívűl jól érezte magát,
+Házad népét bőkezűen megjutalmazta,
+Nejed végig magasztalta,
+Ő egy gyémántot kapott
+És végül a király, mikor ütött az óra
+Iszonyú elégedetten tért nyugovóra.
 ### MACBETH
-E rövid idő alatt ennyi tellett tőlünk.        
-Ennél sokkal többre lettünk volna képesek,      
+E rövid idő alatt ennyi tellett tőlünk.
+Ennél sokkal többre lettünk volna képesek,
 Ha felkészülhettünk volna.
 ### BANQUO
-Minden jó volt így.     
-Múlt éjjel a három fura nőről álmodtam:     
-Neked igazad jósoltak!      
+Minden jó volt így.
+Múlt éjjel a három fura nőről álmodtam:
+Neked igazad jósoltak!
 ### MACBETH
-Nem gondolkoztam ezen...    
-De ha később lesz egy nyugodt óra,      
-Elbeszélgethetünk róla,     
+Nem gondolkoztam ezen...
+De ha később lesz egy nyugodt óra,
+Elbeszélgethetünk róla,
 Természetesen, csak ha neked is megfelel.
 ### BANQUO
 Neked bármikor ráérek.
 ### MACBETH
-Ha lojális leszel hozzám,       
+Ha lojális leszel hozzám,
 Hidd el, nem bánod meg.
 ### BANQUO
-Ehhez nincs mit hozzátenni,     
-Bár megjegyzem: magamhozvaló az eszem,  
-És a megfelelő időben pártállásom   
+Ehhez nincs mit hozzátenni,
+Bár megjegyzem: magamhozvaló az eszem,
+És a megfelelő időben pártállásom
 Nyilvánvalóvá teszem.
 ### MACBETH
 Pihenj jól!
@@ -298,7 +297,7 @@ Kopogás, ébreszd fel a király! Bárcsak fel tudnád...!
 
 ### Portás
 Ez aztán a kopogás! Erre már a pokol kapuját is
-Kinyitották volna!
+kitárná a pokolportás!
 *Kopogás folytatódik*
 Kopogj csak... Ki kopog, mondd meg Belzebub nevében!
 Talán nagyravágyó paraszt,
@@ -318,9 +317,9 @@ Gyere csak be, szabász, itt
 Aztán felfűtik a vasalódat!
 *Kopogás*
 Na ezek nem hagyják alább! Te meg ki vagy?
-Pokolnak ez a hely marha hideg, 
+Pokolnak e hely marha hideg, 
 Nem is leszek többet pokolportás: 
-Csak jólesett mélázni azon,
+Csak jólesett méláznom azon,
 Hogy beengedek néhány szakit, kiket élveteg
 Életük után a gyehenna tüze vár.
 *kopogás*
@@ -332,7 +331,7 @@ Jól van már! Könyörgöm, egy kis baksis adjatok.
 Későn feküdtél le, haver, hogy nem tudsz felkelni?
 ### Portás
 Bevallom, mocskos sokat vedeltünk, uram, kábé kettőig.
-És az ital három dolgot különösen kiprovokált.
+És az ital három dolgot főként kiprovokált.
 ### MACDUFF
 Mégis, miket provokált?
 ### Portás
@@ -373,7 +372,7 @@ Utasított, hogy keltsem fel korán.
 ### MACBETH
 Odaviszlek hozzá.
 ### MACDUFF
-Tudom, hogy ez nem nagy gond neked.
+Remélem, nem nagy gond neked.
 ### MACBETH
 Jólesően fájdalmas ez a munka.
 Itt az ajtaja.
@@ -470,7 +469,7 @@ De ettől a pillanattól kezdve
 Létem értelme elveszett, nekem
 A siker és hírnév csak halott játékszerek,
 Életem bora elapadt,
-Hordómban csupán az üledék maradt.
+Hordómban csupán a seprő maradt.
 
 *Belép MALCOLM és DONALBAIN*
 
@@ -512,7 +511,7 @@ Jaj, elájulok!
 ### MALCOLM
 Vigyázz, tartsd a hölgyet!
 ### MALCOLM
-(*félre mondja DINALBAIN-nak)
+(*félre mondja DONALBAIN-nak)
 Miért bénult a nyelvünk, mikor ez az ügy igazából
 minket érint?
 ### DONALBAIN
@@ -544,7 +543,7 @@ Csalárd fondorlatot.
 Esküszünk!
 ### MACBETH
 Gyorsan kapjunk fel magunkra valami rendes göncöt,
-És találkozzunk a csarnokban rögtön!
+És találkozzunk a nagyteremben!
 ### Mindenki
 Úgy legyen!
 
@@ -556,7 +555,7 @@ Javaslom, ne vegyüljünk velük:
 Gazemberek a gyászt könnyen tettetik.
 Én inkább Angliába szököm.
 ### DONALBAIN
-Én meg Írországba. 
+Én meg az írekhez. 
 Szétvált sorsunk oltalmaz majd bennünket.
 Itt az emberek mosolya mögött,
 Nem nehéz meglátni az ördögöt.
@@ -565,10 +564,99 @@ Minél közelebbi a vérrokon,
 ### MALCOLM
 A gyilkos dárda útjából jobb időben kitérni.
 Ezért nyergeljünk hamar és ne legyünk restek gyorsan lelépni.
-Létem meglovasíthatom, hisz nincs egyebem,
-Ezen a helyen nem maradt egy fikarcnyi kegyelem.
+Meglovasítom magam, bár a tolvajlás nem kenyerem,
+Ebben a házban nem maradt nekünk kegyelem.
 
 *Kimennek*
+
+## IV. szín. Macbeth vára előtt.
+
+*ROSS és az Öregember belép*
+
+### Öregember
+Öttucat és még tíz hosszú év,
+Emléke él az elmémben:
+Épp elég furát és félelmetest átéltem,
+De mind eltörpül amellett,
+Melyet ez az éj ellett.
+### ROSS
+Bizony, Öreg,
+Isten néha bezárná a véres színpadot,
+Amin az emberi rémdráma megbukott,
+És látod, bár reggel van,
+Mégis a sűrű éj rabolta el a felkelő napot.
+Az éjszaka érdeme, vagy a nappal szégyene,
+Hogy a Föld, az éltető fény csókja helyett,
+A sötétség sírjába temetkezett?
+### Öregember
+Nem természetes ez, mint az sem,
+Ami megesett.
+Múlt kedden az egerész bagoly levadászott
+Egy büszkén, magasan szárnyaló sólyomot.
+És megölte...
+### ROSS
+A legfurcsább eset pedig, hogy Duncan lovai,
+Pompás és sebes paripa mind,
+Fajtáik legjobbjai, visszavadultak,
+Karámjukból kitörtve elszabadultak,
+Nem hallották a lovászok szavát,
+Mintha az egész emberiség ellen vívtak volna csatát.
+### Öregember
+Úgy mondják, egymást fel is falták.
+### ROSS
+Úgy volt, alig hittem döbbent szememnek.
+Itt jön a jó Macduff.
+
+*MACDUFF bejön*
+
+Valami újság, uram?
+### MACDUFF
+Hát nem látod?
+### ROSS
+Tudjuk már, ki a tettes?
+### MACDUFF
+Azok, akiket Macbeth levágott.
+### ROSS
+Mégis, miért tehették?
+### MACDUFF
+Malcolm és Donalbain bérelhette fel őket, a király két fia.
+El is pucoltak nyomban, ezért a gyanú rájuk terelődött.
+### ROSS
+Ez is természet ellen való:
+A saját életük és vagyonuk ellen fordított
+Tékozló ambíció!
+Akkor a korona alighanem
+Macbeth fejére száll.
+### MACDUFF
+Már ki is hirdették,
+És Sconeba lovagolt,
+hogy ott őt a szent trónon felkenjék.
+### ROSS
+És Duncan teste, hol van?
+### MACDUFF
+A Colmekill-szigeti kolostorba vitték,
+Hogy ősei szentelt kriptájába helyezzék.
+### ROSS
+Te is Sconeba mész?
+### MACDUFF
+Nem, tesó, haza, Fife-ba.
+### ROSS
+Hát, én később Sconeba megyek.
+### MACDUFF
+Nos, hát isten veled, remélem, ott mindent rendben találsz!
+Attól félek, ennél az újnál nekünk a régi gúnya jobban állt...
+### ROSS
+Isten veled, öregapám!
+### Öregember
+Isten áldása kisérjen, fiam!
+Isten áldja mind, ki gonoszt megjavít,
+ki ellenséget szelidít!
+
+*Mind kimennek*
+
+*Vége az második felvonásnak*
+
+
 
 
 
