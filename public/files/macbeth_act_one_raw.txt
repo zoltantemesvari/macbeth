@@ -34,24 +34,24 @@ Ködbe tűnünk mind hamar!
 *Kürt szól. Belép DUNCAN (a király), MALCOLM, DONALBAIN és LENNOX kisérőkkel, ahol találkoznak egy verző hadnaggyal*
 
 ### DUNCAN:
-Ki ez a sebesült? Úgy tűnik, ő talán beszámolhat
+Ki ez a sebesült? Úgy tűnik, ő talán beszámolhat    
 a felkelés helyzetéről.
 ### MALCOLM
-Ez a hadnagy kiváló katonaként harcolt és kiszabadított a fogságból.
-Köszönöm, bátor bajtárs!
-Mondd el a királynak, hogy hagytad ott a csatát?
+Ez a hadnagy kiváló katonaként harcolt és kiszabadított a fogságból.    
+Köszönöm, bátor bajtárs!    
+Mondd el a királynak, hogy hagytad ott a csatát?    
 ### Hadnagy
-Kétes volt a kimenetel;
-Mint a két kimerült úszó, kik összekapaszkodva egymást fujtják meg.
-A kegyetlen Macdonwald -- igazi sokszorosan aljas természetű felkelő -- 
-Hebridák felől nyomult bakákkal és dárdásaival;
-Egy darabig úgy tűnt, a Szerencse, mint ribanc mosolyg a lázadóra, de mind hiába:
-Bátor Macbeth (ó hogy illik rá e név!), megfricskázva Fortunát,
-Véresen gőzölgő kardjával rájuk rontott,
-Rettenhetetlenként vágott rendet az ellenben,
-Míg elérte azt a nyomorultat nemsokára;
-Nem köszönt és és nem hibázott,
-Macdownwald hasát felvágta,
+Kétes volt a kimenetel;     
+Mint a két kimerült úszó, kik összekapaszkodva egymást fujtják meg.     
+A kegyetlen Macdonwald -- igazi sokszorosan aljas természetű felkelő --     
+Hebridák felől nyomult bakákkal és dárdásaival;     
+Egy darabig úgy tűnt, a Szerencse, mint ribanc mosolyg a lázadóra, de mind hiába:          
+Bátor Macbeth (ó hogy illik rá e név!), megfricskázva Fortunát,     
+Véresen gőzölgő kardjával rájuk rontott,    
+Rettenhetetlenként vágott rendet az ellenben,   
+Míg elérte azt a nyomorultat nemsokára; 
+Nem köszönt és és nem hibázott, 
+Macdownwald hasát felvágta,     
 És fejét feltűzte a vár fokára!
 ### DUNCAN
 Ó nemes rokon! Micsoda hős!

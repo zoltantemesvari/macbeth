@@ -11,6 +11,7 @@ import Html
         , div
         , fieldset
         , form
+        , h1
         , h2
         , h3
         , h4
@@ -83,12 +84,18 @@ type alias Model =
     , act1 : String
     , act2 : String
     , currentpage : String
+    , mobilemenu : MobileMenu
+    , mobilenav : String
     }
 
 
 type Light
     = Day
     | Night
+
+type MobileMenu
+    = Open
+    | Closed
 
 
 type FileState
@@ -105,6 +112,8 @@ init _ =
       , act1 = "/files/macbeth_act_one_raw.txt"
       , act2 = "/files/macbeth_act_two_raw.txt"
       , light = Day
+      , mobilemenu = Closed
+      , mobilenav = "closed"
       }
     , Http.get
         { url = "/files/macbeth_act_one_raw.txt"
@@ -126,6 +135,26 @@ acts model page =
     )
 
 
+dayornight : Light -> String
+dayornight light =
+    case light of
+        Day ->
+            "day"
+
+        Night ->
+            "night"
+
+
+dayornightinverse : Light -> String
+dayornightinverse light =
+    case light of
+        Day ->
+            "Éjjel"
+
+        Night ->
+            "Nappal"
+
+
 
 -- UPDATE
 
@@ -133,6 +162,8 @@ acts model page =
 type Msg
     = GotText (Result Http.Error String)
     | SwitchAct String
+    | DayOrNight
+    | MobileNav
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
@@ -149,6 +180,22 @@ update msg model =
                 Err _ ->
                     ( { model | filestate = Failure }, Cmd.none )
 
+        DayOrNight ->
+            case model.light of
+                Day ->
+                    ( { model | light = Night }, Cmd.none )
+
+                Night ->
+                    ( { model | light = Day }, Cmd.none )
+
+        MobileNav ->
+            case model.mobilemenu of
+                Closed ->
+                    ( { model | mobilenav = "open", mobilemenu = Open }, Cmd.none )
+                
+                Open ->
+                    ( { model | mobilenav = "closed", mobilemenu = Closed  }, Cmd.none )
+                
 
 
 -- SUBSCRIPTIONS
@@ -166,15 +213,22 @@ subscriptions model =
 navigationView : Model -> Html Msg
 navigationView model =
     div
-        [ class "navigation" ]
+        [ class ("navigation " ++ model.mobilenav) ]
         [ button
-            [ onClick <| SwitchAct model.act1
+            [ class "button"
+            , onClick <| SwitchAct model.act1
             ]
             [ text "Első Felvonás" ]
         , button
-            [ onClick <| SwitchAct model.act2
+            [ class "button"
+            , onClick <| SwitchAct model.act2
             ]
             [ text "Második Felvonás" ]
+        , button
+            [ class "button"
+            , onClick <| DayOrNight
+            ]
+            [ text (dayornightinverse model.light) ]
         ]
 
 
@@ -188,32 +242,47 @@ viewPlay model =
             text "Töltés..."
 
         Success fullText ->
-        
             div
-                [ class "play"
+                [ class "play "
                 ]
                 [ Markdown.toHtml [] fullText
-                ,   div
-                [ class "footer"
+                , div
+                    [ class "footer"
+                    ]
+                    [ navigationView model
+                    ]
                 ]
-                [ navigationView model
-                ]
-                ]
-            
-        
-                
 
 
 view : Model -> Html Msg
 view model =
-    
-            div
-                [ class "page"
+    div
+        [ class ("page " ++ dayornight model.light)
+        ]
+        [ div
+            [ class "header"
+            ]
+            [ navigationView model
+            , div
+                [ class "title"
                 ]
-                [ div
-                    [ class "header"
-                    ]
-                    [ navigationView model
-                    ]
-                , viewPlay model
+                [ h1
+                    []
+                    [ text "William Shakespeare: Macbeth" ]
+                , h4
+                    []
+                    [ text "Fordította: Temesvári Zoltán" ]
+                , p
+                    [ class "printmessage" ]
+                    [ text "Ingyenes e-könyv igényelhető a hello@macbeth.hu emailcímen" ]
                 ]
+            , div [ class "mobilemenu" ]
+                [ button
+                    [ class "button"
+                    , onClick <| MobileNav
+                    ]
+                    [ text "Menü" ]
+                ]
+            ]
+        , viewPlay model
+        ]
