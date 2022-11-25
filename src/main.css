@@ -36,18 +36,23 @@ body {
 }
 
 .title {
+  display: block;
   font-size: clamp(1rem, -1rem + 4vw, 2rem);
   background-color: #1f1c19;
   opacity: 0.5;
-  padding: 1rem;
   max-width: fit-content;
-  margin: 1rem auto;
+  padding: 1rem;
+  margin:1rem auto;
+  align-items: center;
 }
 
 .title h1,
 h4 {
   color: antiquewhite;
   opacity: none;
+  line-height: 0.8rem;
+  padding: 0.4rem;
+
 }
 
 .day {
@@ -62,10 +67,11 @@ h4 {
 
 .header {
   position: sticky;
+  align-items: center;
   margin: 0;
   height: 400px;
   width: 100%;
-  background-image: url('../public/images/pexels-callam-barnes-4027057.jpg');
+  background-image: url('../public/images/gustave_dore_the_scottish_highlands.jpg');
   background-position: center;
   background-size: cover;
 }

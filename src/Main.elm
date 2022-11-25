@@ -269,13 +269,16 @@ view model =
                 ]
                 [ h1
                     []
-                    [ text "William Shakespeare: Macbeth" ]
+                    [ text "William Shakespeare" ]
+                , h1
+                    []
+                    [ text "MACBETH" ]
                 , h4
                     []
                     [ text "Fordította: Temesvári Zoltán" ]
                 , p
                     [ class "printmessage" ]
-                    [ text "Ingyenes e-könyv igényelhető a hello@macbeth.hu emailcímen" ]
+                    [ text "E-könyv igényelhető a hello@macbeth.hu emailcímen" ]
                 ]
             , div [ class "mobilemenu" ]
                 [ button
