@@ -27,6 +27,7 @@ import Html
         , textarea
         , th
         , tr
+        , label
         )
 import Html.Attributes
     exposing
@@ -57,6 +58,7 @@ import Html.Events exposing (on, onClick, onInput, targetValue)
 import Http
 import List exposing (filter)
 import Markdown
+import Html.Events exposing (onCheck)
 
 
 
@@ -145,16 +147,10 @@ dayornight light =
         Night ->
             "night"
 
-
-dayornightinverse : Light -> String
-dayornightinverse light =
-    case light of
-        Day ->
-            "Éjjel"
-
-        Night ->
-            "Nappal"
-
+daynightswitch : Bool -> Msg
+daynightswitch check =
+    if check then LetNight
+        else LetDay
 
 
 -- UPDATE
@@ -163,7 +159,8 @@ dayornightinverse light =
 type Msg
     = GotText (Result Http.Error String)
     | SwitchAct String
-    | DayOrNight
+    | LetDay
+    | LetNight
     | MobileNav
 
 
@@ -181,14 +178,6 @@ update msg model =
                 Err _ ->
                     ( { model | filestate = Failure }, Cmd.none )
 
-        DayOrNight ->
-            case model.light of
-                Day ->
-                    ( { model | light = Night , mobilenav = "closed" }, Cmd.none )
-
-                Night ->
-                    ( { model | light = Day , mobilenav = "closed" }, Cmd.none )
-
         MobileNav ->
             case model.mobilemenu of
                 Closed ->
@@ -196,6 +185,12 @@ update msg model =
                 
                 Open ->
                     ( { model | mobilenav = "closed", mobilemenu = Closed  }, Cmd.none )
+        
+        LetDay ->
+                ( { model | light = Day , mobilenav = "closed" }, Cmd.none )
+
+        LetNight ->
+                ( { model | light = Night , mobilenav = "closed" }, Cmd.none )
                 
 
 
@@ -225,11 +220,6 @@ navigationView model =
             , onClick <| SwitchAct model.act2
             ]
             [ text "Második Felvonás" ]
-        , button
-            [ class "button"
-            , onClick <| DayOrNight
-            ]
-            [ text (dayornightinverse model.light) ]
         ]
 
 
@@ -251,6 +241,17 @@ viewPlay model =
                     [ class "footer"
                     ]
                     [ navigationView model
+                    ]
+                , label
+                    [ class "dayNight"
+                    ]
+                    [ input
+                        [ type_ "checkbox"
+                        , onCheck <| daynightswitch
+                        ]
+                        []
+                        , div []
+                        []
                     ]
                 ]
 

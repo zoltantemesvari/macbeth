@@ -1,4 +1,4 @@
-module Main_old exposing (..)module Main exposing (..)
+module Main exposing (..)
 
 import Browser
 import Html
@@ -11,6 +11,7 @@ import Html
         , div
         , fieldset
         , form
+        , h1
         , h2
         , h3
         , h4
@@ -52,8 +53,9 @@ import Html.Attributes
         , type_
         , value
         )
-import Html.Events exposing (on, onClick, onInput, targetValue)
+import Html.Events exposing (on, onClick, onCheck, onInput, targetValue)
 import Http
+import List exposing (filter)
 import Markdown
 
 
@@ -75,7 +77,28 @@ main =
 -- MODEL
 
 
-type Model
+type alias Model =
+    { filestate : FileState
+    , light : Light
+    , homepage : String
+    , act1 : String
+    , act2 : String
+    , currentpage : String
+    , mobilemenu : MobileMenu
+    , mobilenav : String
+    }
+
+
+type Light
+    = Day
+    | Night
+
+type MobileMenu
+    = Open
+    | Closed
+
+
+type FileState
     = Failure
     | Loading
     | Success String
@@ -83,17 +106,54 @@ type Model
 
 init : () -> ( Model, Cmd Msg )
 init _ =
-    acts "/files/macbeth_act_one_raw.txt"
-
-
-acts : String -> ( Model, Cmd Msg )
-acts file =
-    ( Loading
+    ( { filestate = Loading
+      , currentpage = "/files/macbeth_act_one_raw.txt"
+      , homepage = "/"
+      , act1 = "/files/macbeth_act_one_raw.txt"
+      , act2 = "/files/macbeth_act_two_raw.txt"
+      , light = Day
+      , mobilemenu = Closed
+      , mobilenav = "closed"
+      }
     , Http.get
-        { url = file
+        { url = "/files/macbeth_act_one_raw.txt"
         , expect = Http.expectString GotText
         }
     )
+
+
+acts : Model -> String -> ( Model, Cmd Msg )
+acts model page =
+    ( { model
+        | filestate = Loading
+        , currentpage = page
+        , mobilenav = "closed"
+      }
+    , Http.get
+        { url = page
+        , expect = Http.expectString GotText
+        }
+    )
+
+
+dayornight : Light -> String
+dayornight light =
+    case light of
+        Day ->
+            "day"
+
+        Night ->
+            "night"
+
+
+dayornightinverse : Light -> String
+dayornightinverse light =
+    case light of
+        Day ->
+            "Éjjel"
+
+        Night ->
+            "Nappal"
 
 
 
@@ -103,22 +163,40 @@ acts file =
 type Msg
     = GotText (Result Http.Error String)
     | SwitchAct String
+    | DayOrNight
+    | MobileNav
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
         SwitchAct file ->
-            acts file
+            acts model file
 
         GotText result ->
             case result of
                 Ok fullText ->
-                    ( Success fullText, Cmd.none )
+                    ( { model | filestate = Success fullText }, Cmd.none )
 
                 Err _ ->
-                    ( Failure, Cmd.none )
+                    ( { model | filestate = Failure }, Cmd.none )
 
+        DayOrNight ->
+            case model.light of
+                Day ->
+                    ( { model | light = Night , mobilenav = "closed" }, Cmd.none )
+
+                Night ->
+                    ( { model | light = Day , mobilenav = "closed" }, Cmd.none )
+
+        MobileNav ->
+            case model.mobilemenu of
+                Closed ->
+                    ( { model | mobilenav = "open", mobilemenu = Open }, Cmd.none )
+                
+                Open ->
+                    ( { model | mobilenav = "closed", mobilemenu = Closed  }, Cmd.none )
+                
 
 
 -- SUBSCRIPTIONS
@@ -136,21 +214,28 @@ subscriptions model =
 navigationView : Model -> Html Msg
 navigationView model =
     div
-        [ class "navigation" ]
+        [ class ("navigation " ++ model.mobilenav) ]
         [ button
-            [ onClick <| SwitchAct "/files/macbeth_act_one_raw.txt"
+            [ class "button"
+            , onClick <| SwitchAct model.act1
             ]
             [ text "Első Felvonás" ]
         , button
-            [ onClick <| SwitchAct "/files/macbeth_act_two_raw.txt"
+            [ class "button"
+            , onClick <| SwitchAct model.act2
             ]
             [ text "Második Felvonás" ]
+        , button
+            [ class "button"
+            , onClick <| DayOrNight
+            ]
+            [ text (dayornightinverse model.light) ]
         ]
 
 
-view : Model -> Html Msg
-view model =
-    case model of
+viewPlay : Model -> Html Msg
+viewPlay model =
+    case model.filestate of
         Failure ->
             text "Hiba! Nem tudjuk betölteni a színdarabot..elnézést."
 
@@ -159,16 +244,49 @@ view model =
 
         Success fullText ->
             div
-                [ class "page"
+                [ class "play "
                 ]
-                [ div
-                    [ class "header"
+                [ Markdown.toHtml [] fullText
+                , div
+                    [ class "footer"
                     ]
                     [ navigationView model
                     ]
-                , div
-                    [ class "play"
-                    ]
-                    [ Markdown.toHtml [] fullText
-                    ]
                 ]
+
+
+view : Model -> Html Msg
+view model =
+    div
+        [ class ("page " ++ dayornight model.light)
+        ]
+        [ div
+            [ class "header"
+            ]
+            [ navigationView model
+            , div
+                [ class "title"
+                ]
+                [ h1
+                    []
+                    [ text "William Shakespeare" ]
+                , h1
+                    []
+                    [ text "MACBETH" ]
+                , h4
+                    []
+                    [ text "Fordította: Temesvári Zoltán" ]
+                , p
+                    [ class "printmessage" ]
+                    [ text "E-könyv igényelhető a hello@macbeth.hu emailcímen" ]
+                ]
+            , div [ class "mobilemenu" ]
+                [ button
+                    [ class "button"
+                    , onClick <| MobileNav
+                    ]
+                    [ text "Menü" ]
+                ]
+            ]
+        , viewPlay model
+        ]
