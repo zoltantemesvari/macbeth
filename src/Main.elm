@@ -17,6 +17,7 @@ import Html
         , h4
         , img
         , input
+        , label
         , option
         , p
         , select
@@ -27,7 +28,6 @@ import Html
         , textarea
         , th
         , tr
-        , label
         )
 import Html.Attributes
     exposing
@@ -54,11 +54,10 @@ import Html.Attributes
         , type_
         , value
         )
-import Html.Events exposing (on, onClick, onInput, targetValue)
+import Html.Events exposing (on, onCheck, onClick, onInput, targetValue)
 import Http
 import List exposing (filter)
 import Markdown
-import Html.Events exposing (onCheck)
 
 
 
@@ -94,6 +93,7 @@ type alias Model =
 type Light
     = Day
     | Night
+
 
 type MobileMenu
     = Open
@@ -147,10 +147,15 @@ dayornight light =
         Night ->
             "night"
 
+
 daynightswitch : Bool -> Msg
 daynightswitch check =
-    if check then LetNight
-        else LetDay
+    if check then
+        LetNight
+
+    else
+        LetDay
+
 
 
 -- UPDATE
@@ -182,16 +187,16 @@ update msg model =
             case model.mobilemenu of
                 Closed ->
                     ( { model | mobilenav = "open", mobilemenu = Open }, Cmd.none )
-                
+
                 Open ->
-                    ( { model | mobilenav = "closed", mobilemenu = Closed  }, Cmd.none )
-        
+                    ( { model | mobilenav = "closed", mobilemenu = Closed }, Cmd.none )
+
         LetDay ->
-                ( { model | light = Day , mobilenav = "closed" }, Cmd.none )
+            ( { model | light = Day, mobilenav = "closed" }, Cmd.none )
 
         LetNight ->
-                ( { model | light = Night , mobilenav = "closed" }, Cmd.none )
-                
+            ( { model | light = Night, mobilenav = "closed" }, Cmd.none )
+
 
 
 -- SUBSCRIPTIONS
@@ -234,60 +239,64 @@ viewPlay model =
 
         Success fullText ->
             div
-                [ class "play "
+                [ class "play"
                 ]
                 [ Markdown.toHtml [] fullText
-                , div
-                    [ class "footer"
-                    ]
-                    [ navigationView model
-                    ]
-                , label
-                    [ class "dayNight"
-                    ]
-                    [ input
-                        [ type_ "checkbox"
-                        , onCheck <| daynightswitch
-                        ]
-                        []
-                        , div []
-                        []
-                    ]
                 ]
 
 
 view : Model -> Html Msg
 view model =
     div
-        [ class ("page " ++ dayornight model.light)
+        [ class ("page")
         ]
         [ div
-            [ class "header"
+            [ class ("overlay " ++ dayornight model.light)
             ]
-            [ navigationView model
-            , div
-                [ class "title"
+            [ div
+                [ class "header"
                 ]
-                [ h1
-                    []
-                    [ text "William Shakespeare" ]
-                , h1
-                    []
-                    [ text "MACBETH" ]
-                , h4
-                    []
-                    [ text "Fordította: Temesvári Zoltán" ]
-                , p
-                    [ class "printmessage" ]
-                    [ text "E-könyv igényelhető a hello@macbeth.hu emailcímen" ]
-                ]
-            , div [ class "mobilemenu" ]
-                [ button
-                    [ class "button"
-                    , onClick <| MobileNav
+                [ navigationView model
+                , div
+                    [ class "title"
                     ]
-                    [ text "Menü" ]
+                    [ h1
+                        []
+                        [ text "William Shakespeare" ]
+                    , h1
+                        []
+                        [ text "MACBETH" ]
+                    , h4
+                        []
+                        [ text "Fordította: Temesvári Zoltán" ]
+                    , p
+                        [ class "printmessage" ]
+                        [ text "E-könyv igényelhető a hello@macbeth.hu emailcímen" ]
+                    ]
+                , div [ class "mobilemenu" ]
+                    [ button
+                        [ class "button"
+                        , onClick <| MobileNav
+                        ]
+                        [ text "Menü" ]
+                    ]
+                ]
+            , viewPlay model
+            , div
+                [ class "footer"
+                ]
+                [ navigationView model
+                ]
+            , label
+                [ class "dayNight"
+                ]
+                [ input
+                    [ type_ "checkbox"
+                    , onCheck <| daynightswitch
+                    ]
+                    []
+                , div []
+                    []
                 ]
             ]
-        , viewPlay model
         ]
