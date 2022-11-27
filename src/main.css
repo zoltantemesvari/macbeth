@@ -19,14 +19,14 @@ body {
   margin: 0px;
   font-family: 'Source Serif Pro', serif;
   line-height: 1.2;
+  font-size: clamp(1rem, -1rem + 4vw, 1.6rem);
 }
 
 .play {
-  font-size: clamp(1rem, -1rem + 4vw, 1.6rem);
   font-family: 'Source Serif Pro', serif;
   line-height: 1.2;
   max-width: 70ch;
-  margin: 3rem auto;
+  margin: 2rem auto;
   padding: 1.6rem;
   text-align: left;
   height: 100%;
@@ -69,11 +69,13 @@ h4 {
 .day {
   background-color: whitesmoke;
   color: black;
+  transition: background-color 1s;
 }
 
 .night {
   background-color: #171C28;
   color: whitesmoke;
+  transition: background-color 1s;
 }
 
 @keyframes slidein {
@@ -99,6 +101,7 @@ h4 {
   background-size: cover;
 }
 
+
 .navigation {
   width: fit-content;
   margin: auto;
@@ -121,16 +124,14 @@ h3 {
 
 .button {
   display: inline-block;
-  height: 40px;
+  height: 3rem;
   width: fit-content;
   padding: 0 30px;
   margin-top: 16px;
   margin-left: 5px;
   color: black;
   text-align: center;
-  font-size: 13px;
-  font-weight: 600;
-  line-height: 38px;
+  font-size: clamp(0.6rem, -0.6rem + 4vw, 0.8rem);
   letter-spacing: .1rem;
   text-transform: uppercase;
   text-decoration: none;
@@ -147,16 +148,17 @@ h3 {
   color: whitesmoke;
   border-color: #888;
   outline: 0;
-  background-color: transparent;
+  background-color: #1f1c19;
 }
 
 .mobilemenu {
   display: none;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 440px) {
   .play {
     max-width: 40ch;
+    margin: 1rem auto;
   }
   .header {
     height: 280px;
@@ -172,6 +174,10 @@ h3 {
    top: 0;
    left: 0;
    align-items: center;
+  }
+
+  .button {
+  height: 2rem;
   }
 
   .closed {

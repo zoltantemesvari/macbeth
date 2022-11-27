@@ -3,14 +3,9 @@ module Main exposing (..)
 import Browser
 import Html
     exposing
-        ( Attribute
-        , Html
-        , a
-        , br
+        ( Html
         , button
         , div
-        , fieldset
-        , form
         , h1
         , h2
         , h3
@@ -18,43 +13,16 @@ import Html
         , img
         , input
         , label
-        , option
         , p
-        , select
-        , span
-        , table
-        , td
         , text
-        , textarea
-        , th
-        , tr
         )
 import Html.Attributes
     exposing
-        ( alt
-        , attribute
-        , autofocus
-        , checked
+        ( checked
         , class
-        , cols
-        , disabled
-        , href
-        , id
-        , name
-        , placeholder
-        , required
-        , rows
-        , selected
-        , size
-        , src
-        , style
-        , tabindex
-        , target
-        , title
         , type_
-        , value
         )
-import Html.Events exposing (on, onCheck, onClick, onInput, targetValue)
+import Html.Events exposing (onCheck, onClick)
 import Http
 import List exposing (filter)
 import Markdown
@@ -232,23 +200,37 @@ viewPlay : Model -> Html Msg
 viewPlay model =
     case model.filestate of
         Failure ->
-            text "Hiba! Nem tudjuk betölteni a színdarabot..elnézést."
+            div
+                [ class "play"
+                ]
+                [ h1
+                    []
+                    [ text "Hiba! Nem tudjuk betölteni a színdarabot..valószínűleg hálózati probléma. Kérem, ellenőrizze az internetkapcsolatot."
+                    ]
+                ]
 
         Loading ->
             text "Töltés..."
 
         Success fullText ->
-            div
-                [ class "play"
-                ]
-                [ Markdown.toHtml [] fullText
+            div []
+                [ div
+                    [ class "play"
+                    ]
+                    [ Markdown.toHtml [] fullText
+                    ]
+                , div
+                    [ class "footer"
+                    ]
+                    [ navigationView model
+                    ]
                 ]
 
 
 view : Model -> Html Msg
 view model =
     div
-        [ class ("page")
+        [ class "page"
         ]
         [ div
             [ class ("overlay " ++ dayornight model.light)
@@ -271,7 +253,7 @@ view model =
                         [ text "Fordította: Temesvári Zoltán" ]
                     , p
                         [ class "printmessage" ]
-                        [ text "E-könyv igényelhető a hello@macbeth.hu emailcímen" ]
+                        [ text "E-könyv igényelhető a hello@macbeth.hu emailcímen!" ]
                     ]
                 , div [ class "mobilemenu" ]
                     [ button
@@ -282,11 +264,6 @@ view model =
                     ]
                 ]
             , viewPlay model
-            , div
-                [ class "footer"
-                ]
-                [ navigationView model
-                ]
             , label
                 [ class "dayNight"
                 ]
