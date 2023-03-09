@@ -133,7 +133,7 @@ init : () -> ( Model, Cmd Msg )
 init _ =
     ( { filestate = Loading
       , currentpage = Act1
-      , pages = [ Act1, Act2 ]
+      , pages = [ Act1, Act2, Act3 ]
       , light = Day
       , mobilemenu = Closed
       , mobilenav = "closed"

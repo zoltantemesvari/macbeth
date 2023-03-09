@@ -1,0 +1,801 @@
+## Harmadik felvonás
+### Első szín. Forres. A palota.
+*Belép BANQUO*
+
+### BANQUO
+Mindent megkaptál, mit a bizarr nők igértek:
+Glamis után Cawdort és a trónt - bár ezt alighanem
+Utálatos csalással - de végül arra ítéltek,
+Hogy vérvonalad fiaid ne vigyék tovább,
+De magam legyek a uralkodóház gyökere,
+Az én utódom legyen a jövendő király.
+Miért ne ébrehetne bennem is remény, hiszen a
+Próféciák, melyek néked, Macbeth,
+Oly fényes sikereket hoztak,
+Nekem is virágzó jövőt jósoltak.
+De most jobb lesz kussolni, mert jönnek...
+
+*Kürtszó, belép MACBETH mint király, Mabethné
+királynőként, LENNOX, ROSS, urak és kísérők.*
+
+### MACBETH
+Íme a díszvendégünk!
+### Macbethné
+Hogy is hagyhatnánk ki őt!
+Nagyfokú bárdolatlanság volna,
+És fájó hiány a nagyszerű lakomán!
+### MACBETH
+Banquo, jelenlétedhez ragaszkodunk
+A ma esti udvari vacsorán!
+### BANQUO
+Felséged akarata szent:
+Kötelességem megbonthatatlan csomó,
+Mely mindörökre hozzád köt.
+### MACBETH
+Lovagolni készülsz?
+### BANQUO
+Engedelmeddel, jóuram.
+### MACBETH
+Bölcs és magvas javaslataidnak
+Igencsak hasznát vennénk a mai tanácskozáson,
+De sebaj, majd a holnapin!
+Messze mész?
+### BANQUO
+Csak olyan messze, nagyuram, hogy napnyugta előtt
+Mindeképp visszaérjek: de ha elfáradna ménem,
+Az estétől egy-két sötét órát kölcsön kell majd kérnem.
+### MACBETH
+A lakomát le ne késd!
+### BANQUO
+Semmiképp, felséges uram, semmiképp!
+### MACBETH
+Azt halljuk, hogy gyilkos öccseink Angliában és
+Az Íreknél húzták meg magukat és apjuk kegyetlen meggyilkolását
+Nem ismerik el, ámde nem átallanak groteszk kitalációkat terjeszteni.
+De erről inkább holnap, mikor is az államügyeknek
+Szenteljük minden figyelmünket.
+Nyergelj hát! Fiad elkísér?
+### BANQUO
+Igen, felséges uram, már mennünk is kell.
+### MACBETH
+Remélem, lovaid gyorsak és nem botolnak, mert rájuk bízlak! Isten veled!
+
+*BANQUO kimegy*
+
+Este hétig mindenki a maga ura, idejével rendelkezhet,
+Hogy nagyobb legyen a viszontlátás öröme, amikor összegyűlünk újra.
+Mi is visszavonulunk szobánkba, addig is: viszlát!
+
+*Mindenki kimegy, csak egy szolga marad*
+
+Fiacskám, egy szóra! Az emberek már megjöttek?
+### Szolga
+Igen, felség, várnak a palotakapu előtt.
+### MACBETH
+Kísérd őket elénk!
+
+*Szolga el*
+
+A korona mit sem ér, ha biztonságunk nem adott,
+Banquo veszélyes tüskeként bőr alá hatol,
+Királyi ambíciói félelmetesek, és azt hiszem,
+Életünkre tör. Okos és acélidegzete rendkívűli
+Bátorsággal párosul. Senkitől sem tartok úgy,
+Mint tőle. Közelében lelkem befagy, pont,
+Mint Marcus Antoniusé, ha Cézár mellette volt.
+A fura nőket is leszidta, mikor királynak szólítottak,
+És nem tágított, míg neki királyi vérvonalat nem jósoltak.
+A koronát fejemre tették, de milyen áron?
+Uralkodóházat építhetek álmaimban:
+Markolhatom meddő jogarom, amíg egy napon
+Kitépi hideg kezemből, valaki, aki nem fiam.
+Ha Banquo ivadékai miatt mocskoltam be lelkem,
+Ha azért öltem meg a kegyes királyt,
+Ha azért került a keserűség méregcseppje
+Lelki békém serlegébe, és ezért lett
+Örök kárhozatra ítélt szellemem:
+Csupán azért, hogy Banquo sarjaiból király legyen!
+...Hát nem! Halál, a végső párbajban küzdj meg helyettem!
+...Ki van ott?
+
+*Belép a Szolga a két Gyilkossal*
+
+Most pedig őrködj az ajtó előtt, amíg nem szólítunk.
+
+*Szolga ki*
+
+Tegnap beszéltünk, nemdebár?
+
+### Első Gyilkos
+Igen, felség.
+### MACBETH
+Nos hát, gondolkoztatok azon, amit mondtam?
+Tudjátok meg, hogy Banquo volt az, ki benneteket
+Szerencsétlenségre kárhoztatott,
+És nem én, aki ebben ártatlan vagyok.
+Ezt nyilvánvalóvá tettem a múltkori
+Megbeszélésünk alatt és bizonyítékokat is átadtam,
+Miként gáncsolt és csalt meg bennetek, az ügynökeit,
+Akikkel ők együttműködtek, és minden egyebet,
+Amiből csak egy féleszű elmebeteg
+Nem mondaná: ezt csak Banquo tehette meg!
+### Első Gyilkos
+Igen, nem tetted kétségessé, hogy ő volt.
+### MACBETH
+De nem ám! De ez még nem minden, tovább mennék,
+Ez lenne a témája a mostani találkozónknak.
+Tehát olyannyira túlteng bennetek a türelem,
+Hogy ezt annyiban hagynátok?
+Tán annyira ájtatosak vagytok,
+Hogy ezt a jóembert porontyával
+Együtt imába foglalnátok?
+Pont ezt, ki bennetek sírba dob
+És családaitoknak marad a koldusbot?
+### Első Gyilkos
+Férfiak vagyunk, felség!
+### MACBETH
+Ó persze, törzskönyvezett férfiak!
+Akár a kopók, agarak,
+Pásztorkutyák és spánielek,
+Szetterek, farkaskutyák és ölebek,
+És mindenféle korcsok, miket úgy listáznak,
+Hogy mennyire lassúk vagy gyorsak,
+Nyugodtak, vadászok vagy csahosak,
+Mert erényeik különböztetik csak őket,
+Egyébként mind egyformának tűnnek:
+A férfiak sem különbek!
+Nos, ha férfierény-katalógus
+Nem a legalján tanyáztok,
+Akkor mondjátok:
+Én pedig fontos dolgot bízok rátok,
+Amit, ha sikerrel elvégeztek,
+Nemcsak annyi lesz ellenségeteknek,
+De királyi szívünk sem lesz hálátlan,
+Ami mostanság úgyis gyengén kalapál, 
+Nincs más gyógyír rá, csak ellenfél-halál!
+### Első Gyilkos
+Felség, én egy vagyok
+Akit a világ már
+Többször úgy megrágott és kiköpött,
+Mostanra teljesen érzéketlen lettem.
+### Második Gyilkos
+Én meg a másik, akit a balszerencse
+Kékre-zöldre vert,
+Katasztrofális életem
+Nem ér már egy fabatkát sem.
+### MACBETH
+Nos, jól tudjátok, hogy Banquo lenne az ellenségetek...
+### Első Gyilkos
+Tudjuk, nagyuram.
+### MACBETH
+Az enyém is. Annyira utálom,
+Hogy létének minden minutuma
+Felér egy-egy tőrdöféssel a szívembe.
+És bár hatalmamban állna
+Nyíltan megszabadulni tőle,
+Hisz elegendő lenne puszta akaratom,
+Mégsem tehetem, mert közös barátaink
+Szeretét nem kockáztathatom.
+Azt, akit én magam nyírok ki,
+Majd velük együtt gyászolom.
+Ezért szívességetek igazi jótétemény,
+Van számos nyomós indokom,
+Hogy ezt az ügyet a közvélemény
+Előtt titokban tartsam.
+### Második Gyilkos
+Megtesszük, amit parancsolsz, Felség!
+### Első Gyilkos
+Akár életünk árán ---
+
+### MACBETH
+Látom, maradt még bennetek spiritusz!
+Max. egy órán belül megkapjátok az ukászt,
+Hogy hol és mikor álljatok lesben,
+A tökéletes időzítés igen fontos,
+Ma este az ügyet le kell zárnunk,
+De kissé távolabb a palotától,
+Jobb, ha óvatosak vagyunk.
+Tiszta munkát kérek, és ne hagyjunk nyomot:
+Vele lesz fia, Fleance:
+Számomra veszte ugyanolyan sorsdöntő,
+Mint apjáé: a sötét óra
+A végzete őt is el kell érje.
+Most pedig készülődjetek!
+Mindjárt visszatérek.
+### Első Gyilkos
+Mi készen állunk, uram.
+### MACBETH
+Hamarosan szólok, maradjatok a közelben.
+
+*Gyilkosok kimennek*
+
+Banquo, neked bevégeztetett!
+Hogy lelked felszáll-e a mennybe,
+Alighanem kiderül ma este.
+
+*Macbeth kimegy*
+
+## Második szín. Forres. A palota.
+*Belép Macbethné és egy szolga*
+
+### Macbethné
+Banquo már elhagyta a palotát?
+### Szolga
+El, asszonyom, ma este tér vissza.
+### Macbethné
+Üzenem a királynak, hogy pár szót váltanék vele, ha ráér.
+### Szolga
+Igenis, asszonyom, máris.
+### Macbethné
+Semmitérő ambíciónk mindent tönkretett,
+Lelki nyugalmunkat nem leltük meg,
+Pusztításunk csak paranoiát hozott,
+Ennél még az áldozatunknak is jobb...
+
+*Macbeth belép*
+
+Mi lelt, uram? Min csüggedsz magadban,
+Miért terhel a sok nyomorult gondolat?
+Hagyd őket elmúlni, ahogy tárgyuk is halott.
+Kár a múlton rágódni,
+Ami történt, megtörtént.
+### MACBETH
+Nem döglött meg a kígyó, amit levágtunk,
+Felgyógyul, és feni ellenünk méregfogát,
+De inkább sarkából forduljon ki a világ,
+Mintsem hogy gyomorideg és lázálmok
+Miatt fetrengjünk éjeken át,
+Lelki békénk miatt küldtük
+Végső útjára a királyt,
+Hát nem jobb neki a sír-nyugalom,
+Mint nekem tébolyodnom saját kínpadon?
+Duncan halott, de buzgó élete
+Jutalma kegyelmi álom,
+Felszabadította a felségárulás:
+Se méreg, se kard, se ellenség,
+Se lázadás nem árthat neki ezután.
+### Macbethné
+Ugyanmár, drága uram, minek ez a morcos ábrázat,
+Derűs házigazda légy, aki mindenkit elkápráztat!
+### MACBETH
+Az leszek, szerelmem, és remélem, te is!
+Tüntesd ki Banquot figyelmeddel
+És áraszd el bőséges dícséretekkel,
+Amíg helyzetünk ilyen ingatag,
+Zubogjon a hízelgés-zuhatag!
+Muszáj fürdetni becsületünk,
+És arcunkkal álcázni szíveink
+Igaz természetét.
+### Macbethné
+Hagyd ezt abba!
+### MACBETH
+Ó, kedvesem, az én agyam egy skorpiótanya!
+Jól tudod, hogy Banquo és fia még él.
+### Macbethné
+Ők is csak halandók, mint minden teremtmény.
+### Macbeth
+Igen, az vigasztal, hogy ők sem halhatatlanok;
+Örvendj hát: mert mielőtt a denevér elkezdi
+Cikkcakkos röptét, még mielőtt a döglégy bágyadt döngéssel
+Belezúg az ásító sötét éjszakába,
+Szörnyű esemény kerül napvilágra.
+### Macbethné
+Milyen esemény?
+### Macbeth
+Jobb, ha nem tudsz róla, galambocskám.,
+Majd utólag úgyis örülni fogsz neki.
+Jöjj hát, kormos éj, és kösd be
+Az irgalmas nap zsenge szemét
+És véres varázskezeddel szaggasd szét
+A nagy baráti szövetséget,
+Ami engem belülről éget!
+Ahogy sűrűsödik a szürkület,
+Fatetőn gyűlik a varjúsereg:
+Ha a napkorong sápadtan lekókad,
+Az éj sötét árnyai csak akkor
+Serkentik a ragadozókat.
+Nem érted tán szavaim?
+Még maradj nyugton,
+Az aljasság gonoszsággal gyarapodik.
+Gyere hát velem.
+
+*Kimennek*
+
+## Harmadik szín. Park a palotától nem messze.
+
+*Belép a három Gyilkos*
+
+### Első Gyilkos
+Mégis, ki bízott meg, hogy velünk jöjj?
+### Harmadik Gyilkos
+Macbeth.
+### Második gyilkos
+*A harmadik gyilkosra célozva* Ő gyanú felett áll, hiszen ő hozta az infókat,
+Hogy pontosan elvégezhessük a dolgunkat.
+### Első gyilkos
+Akkor várj itt velünk.
+Nyugaton még felfénylő néhány napsugár
+Kései vándort gyorsabb lépésre ösztökél,
+Aki talán így egy fogadót még időben elér.
+Közeleg már az is, akire mi várunk.
+### Harmadik gyilkos
+Csönd! Lódobogást hallok!
+### Banquo
+*Kivűlről* Világíts ide, hé!
+### Második gyilkos
+Akkor ez ő lesz,
+Mert a többi vacsoravendég
+Már a palotában van.
+### Első gyilkos
+Vezeti a lovait.
+### Harmadik gyilkos
+Így szokta,
+Ahogy mindenki más is:
+Az utolsó mérföldön
+Gyalog jönnek a palotáig.
+### Második gyilkos
+Fény, fény!
+
+*Belép Banquo és Fleance egy fáklyával*
+
+### Harmadik gyilkos
+Ez ő!
+### Első gyilkos
+Fekészülni!
+### Banquo
+Alighanem esni fog...
+### Első gyilkos
+Hadd hulljon! *Kioltja a fáklyát*
+
+*Megtámadják Banquot*
+
+### Banquo
+Árulás! Menekülj fiam, fuss, fuss!
+Talán bosszút állhatsz! 
+Ó nyomorultak...
+
+*Banquo meghal. Fleance elmenekül*
+
+### Harmadik gyilkos
+Ki csapta le a fáklyát?
+### Első gyilkos
+Nem erről volt szó?
+### Harmadik gyilkos
+Egy maradt itt. A fiú elmenekült.
+### Második gyilkos
+Munkánk jobbik részét elcsesztük.
+### Első gyilkos
+Hát, ez van, számoljunk be, mi történt. Menjünk.
+
+## Hatodik szín. A királyi palota terme.
+
+*Kezdődik a királyi vacsora. Belép Macbeth, mint király, Macbethné, mint királyné, Ross, Lennox, a többi nemes és kísérőik*
+
+### Macbeth
+Rang szerint üljetek le: mindenkit Isten hozott!
+### Nemesek
+Köszönjük, Felség!
+### Macbeth
+Mi magunk szerény házigazdaként vegyülünk a vendégek közé,
+Míg háziasszonyunk tovább trónol,
+De megfelelő időben azonban,
+Megkérjük, hogy köszöntőt mondjon.
+### Macbethné
+Tolmácsold helyettem is, uram,
+Mit szívem beszél:
+Minden barátunkat az Isten hozta.
+
+*Az első gyilkos feltűnik az ajtóban*
+
+### Macbeth
+Látod, nékik is szívük válaszol és köszöni.
+Most, hogy mindkét asztalfél egyforma,
+Magam középre ülök:
+Csapjunk a lovak közé,
+Mindjárt mindenkivel pertut iszom!
+
+*Észreveszi az ajtóban álló Gyilkost és odamegy hozzá*
+
+Vér van az arcodon...
+### Első gyilkos
+Alighanem Banquoé.
+### Macbeth
+Jobb vére rajtad, mintha benne folyna.
+Eltettétek láb alól?
+### Első gyilkos
+A torkát magam metszettem el, felség.
+### Macbeth
+Te lennél a nyakfelmetszők első helyezettje,
+Főleg, ha tőröd Fleancét is elmetszette!
+### Első gyilkos
+Királyuram...Fleance megszökött...
+### Macbeth
+Félelmeim beigazolódtak, pedig amúgy milyen tiszta lenne elmém!
+Tökéletesen nyugodt, mint a márvány,
+Könnyű és nyitott, mint a lég;
+Erre most itt vagyok újra: lefojtnak, gúzsba kötnek,
+Tömlöcbe zárnak nyomasztó kételyek és félszek!
+Legalább Banquot elintéztétek?
+### Első gyilkos
+Ó, jóuram, el ám, ott figyel az árokban,
+Legalább húsz mély vágással a fején,
+Egyenként is bármelyik halálos lett volna.
+### Macbeth
+Köszönet ezért:
+A kígyófaternek vége, a kiskígyó, úgy tűnik, megúszta,
+Pedig előbb-utóbb neki is kibújik méregfoga.
+De most még nincs neki: hát hadd fusson!
+Holnap újra beszéljünk.
+
+*Gyilkos kimegy*
+
+### Macbethné
+Felséges uram,
+Hol marad a szívélyességed?
+Vendégeid még azt hiszik, szimpla vacsorán vannak,
+Ahol az ételt pénzért adják!
+Így akár otthon is ehetnének,
+De ha már eljöttek, legyen az étel körítése
+Emelkedett udvariasságunk,
+Ami nélkül ez az parti elég szegényes lenne.
+
+*Belép Banquo szelleme és leül Macbeth helyére*
+
+### Macbeth
+Élő lelkiismeretem vagy!
+Jó étvágy és jó emésztés!
+Ez a fontos és: egészség!
+### Lennox
+Felség, foglaljon helyet.
+### Macbeth
+Itt volna hajékunkban országunk színe-java maradéktalan,
+Ha tisztelt Banquonk is jelen volna;
+Leginkább megfeddném, hogy ily faragatlan,
+Mielőtt valami kifogásról beszámolna!
+### Ross
+Banquo távolléte, felség,
+Megkérdőjelezi megbízhatóságát...
+Felség, már nagyon hiányoljuk
+Királyi társaságát!
+### Macbeth
+De nincs hely az asztalnál.
+### Lennox
+Uram, itt foglalom a helyét.
+### Macbeth
+Hol?
+### Lennox
+Itt, jóuram. Mi zaklatta fel felségedet?
+### Macbeth
+Melyikőtök tette ezt?
+### Lennox
+Micsodát, jóuram?
+### Macbeth
+*A szellem felé*
+Nem mondhatod, hogy én tettem: ne rázogasd
+véres fürtjeid felém!
+### Ross
+Uraim, álljanak fel, a felség nem érzi jól magát!
+
+*A nemesek elkezdenek felállni*
+
+### Macbethné
+Üljetek le, kedves barátaink: uramnál ez gyakori tünet,
+Már fiatalkora óta tart. Kérem, maradjatok ülve;
+Időleges a kilengés, mindjárt jól is lesz,
+Csak felbőszíti, ha nézitek és tovább tart a roham:
+Csak egyetek és ne foglalkozzatok vele.
+
+*Macbethné félrevonja Macbethet*
+
+Összeszedted már magad? Újra férfi vagy?
+## Macbeth
+Persze, olyan vakmerő, hogy arra is rá merek nézni,
+Ami az ördögöt is elborzasztja!
+### Macbethné
+Lószart!
+Ez a rettegésed mi arcodra vetül,
+Ez a szellemtőr, ami szerinted Duncanhoz vitt,
+Ezek a érzelmi hullámzásaid és rohamok,
+Valódi félelmeid árulói,
+Kandalló melletti téli estimesék!
+Szégyen és gyalázat!
+Miért vágsz ilyen képet?
+Amikor mindennek vége,
+Csak bámulsz egy székre!
+### Macbeth
+Könyörgöm, nézz oda! Figyelj! Ott, nézd!
+
+*A szellemnek* ...Hogy mondod?
+Miért, mit bánom én? Ha bólintani tudsz, hát beszélj is!
+
+Ha kripták is kilökik mind, kit betemettünk,
+Keselyűk gyomra lesz sírunk! 
+
+*Banquo szelleme elenyész*
+
+### Macbethné
+Mit, azt hogy összecsináltad magad?
+### Macbeth
+Eszküszöm, láttam őt!
+### Macbethné
+Fú, ez nagyon gáz!
+### Macbeth
+Sok vért ontottak e helyt hajdanán,
+Ma már a törvény tiltja a bosszút,
+De hiába, azóta is megannyi a szörnyű gyilkosság.
+Voltak idők, mikor az ember, ha agya loccsant,
+Kipurcant, és annyi volt neki,
+Most még fején húsz végzetes sebbel
+Zombiként felkel
+És székünkről kitúr...
+Ez durvább, mint a halál...
+### Macbethné
+Drága uram,
+Nemes barátaid hiányolnak.
+### Macbeth
+El is felejtettem...
+*Hangosan* Ne csodálkozzatok, drága barátaim,
+Különös nyavalya gyötör, amit már megszoktak,
+Kik jobban ismernek.
+Mindenkinek egészségére!
+Akkor le is ülök.
+*Szolgához*
+- Adj bort, töltsd tele -
+*A szolga teletölti serlegét*
+Ürítem poharam az egész asztaltársaság örömére,
+És persze Banquo barátunkra, akit úgy hiányolunk.
+Bárcsak itt lenne velünk!
+
+*Visszatér a szellem*
+
+Mindenkire, rá is, igyunk!
+### Nemesek
+Igyunk a hűségünkre!
+*Isznak*
+### Macbeth
+*Meglátja a szellemet* 
+Tűnj már el a szemem elől! Bújj vissza a földbe!
+Csontjaid szárazak, véred hideg,
+Szemeid, melyekkel méregetsz, világtalanok!
+### Macbethné
+Jó urak, ezt tekintsétek
+Múló kellemetlenségnek,
+Ami pillanatnyilag ciki, de semmi több...
+### Macbeth
+Nem félek én semmitől, mitől férfi félhet:
+Jöjjön akár böhöm orosz medve,
+Páncélos rinó vagy bengál tigris:
+Idegszálam meg se rezzen,
+Öltsön bármely alakot, csak ne ilyet! *A szellemre mutat*
+Inkább támadj fel és hívj ki párbajra kardoddal,
+Bátran hívhatsz kisleánynak, ha akkor remegni látsz!
+El innen, rémisztő árny!
+Szemtelen ábránd, tűnj már el!
+
+*Banquo szelleme eltűnik*
+
+Most, hogy elment, megint férfi lettem...
+*Vendégekhez* Kérem, maradjatok ülve.
+### Macbethné
+Na, csodálatos zűrzavart okoztál,
+Tönkretetted ezt a jó kis estét.
+### Macbeth
+Hát hogyne döbbennénk meg,
+Mikor léteznek ily dolgok,
+Melyek lesújtanak, mint nyári jégeső?
+Bizarrnak érzem magam tőled,
+Ha látom, hogy ajkad pírja mit sem fakul
+Ily káprázatok láttán,
+Míg enyémből a rettenet űzi ki a színt!
+### Ross
+Milyen káprázatok, uram?
+### Macbethné
+Könyörgöm, ne szólj hozzá; csak egyre rosszabbul lesz;
+A kérdések feldühítik. Mindenkinek: jó éjt!
+Semmi udvariaskodás, csak távozzatok egyszerre!
+### Lennox
+Jó éjt és jó egészséget kívánunk a felségednek!
+### Macbethné
+Áldott jó éjt mindenkinek!
+
+*Mind kimegy Macbeth és felesége kivételével*
+
+### Macbeth
+Azt mondják, a vér vért kíván:
+Köveket láttak arrébb menni és fákat szólni,
+Szarkák, kányák mozgásából madárjósok
+Bujkáló gyilkosok kilétét szagolták ki...
+Későre jár az éj?
+### Macbethné
+Oly későre, hogy mindjárt reggel.
+### Macbeth
+Mit szólsz hozzá, hogy Macduff leghőbb kérésünk dacára sem akart megjelenni?
+### Macbethné
+Elküldettél érte, uram?
+### Macbeth
+Közvetve értesültem, de majd küldetek érte,
+Házában szolgál besúgóm beépítve.
+Holnap mielőbb felkeresem a fura nőket,
+Hogy több szóra bírjam őket,
+Válogatott eszközeim vannak,
+Majd megfeszülök, hogy többet megtudjak.
+Már úgyis szügyig gázolok a vérben,
+Nincs visszaút, olyan mélyen.
+Minden más dolog várhat, ez az én érdekem,
+Különös dolgokkal tömve a fejem,
+Melyeknek végére kell járjak,
+Még mielőtt mások rátalálnak.
+### Macbethné
+Tudod, mi hiányzik neked? Az univerzális gyógyír: az alvás!
+### Macbeth
+Akkor menjünk aludni.
+Milyen különös az önmarcangolás!
+Szokatlan, új érzés ez nekem,
+Jobb lesz, ha ellene magam felvértezem!
+
+*Kimennek*
+
+## Negyedik szín. Forres. A palota.
+
+*Belép Lennox és egy másik nemes*
+
+### Lennox
+Azt hiszem, egyetértünk,
+És nem is ragoznám tovább:
+Hogy elég furcsán folynak itt a dolgok,
+Macbeth kegyes Duncanra panaszkodott,
+És hoppá!  A király meg is halt!
+Vitéz Banquo elkésett,
+És már vége is lett.
+Fleance elmenekült, így hát azt hihetnéd,
+Banquot saját fia ölte meg....
+Ejnye, senkinek nem illik elkésni...
+Esetleg bárki agyában megfordul,
+Milyen természetellenes,
+Hogy felséges apjukat is
+Pont a két fiú ölte meg?
+Azok a makacs tények....
+És a királyt Macbeth miként gyászolta!
+Nem ő volt, ki hirtelen haragjában
+A két merevrészeg delikvenst egyből lemészárolta?
+Mennyire nemes cselekedet, nem igaz?
+Dehogynem, és nagyon okos is!
+Hiszen minden érző szívet túlontúl felzaklatott volna,
+Ha hallja, hogy a két őrt a bűnt letagadja!
+Azt mondom hát: Macbeth mindent jól kifundált,
+Úgy hiszem, ha a fiúkat elfogta volna,
+(Adja Isten, hogy soha ne tudja!)
+Egyből rájuk húzzák, hogy megölték apjukat,
+Mint ahogy Fleance-re is!
+Mitöbb, azt mondják, Macduff kegyvesztett lett,
+Mivel lakatot szájára nem tett,
+És a zsarnok lakomáján részt sem vett!
+Jóuram, meg tudod mondani, most hol lehet?
+### Nemes
+Malcolm, a trónörökös,
+Akit ez a zsarnok a koronától visszatart,
+Az angol király: a legszentebb Edvárd vendége,
+Ki oly megtiszteltetéssel fogadta,
+Mintha Malcolm felséges posztját
+A balszerencse meg sem tépázta volna.
+Macduff is ott van, a szent királyhoz
+Könyörög segítségért, hogy az áldását adja
+Siwan hadúrra, ki Northumberland seregével
+Biztosíthatja, hogy
+Újra nyugodtan alhassunk és
+Tehessünk asztalunkra ételt,
+Ünnepeinkről száműzzük a gyilkolást,
+Hogy felesküdhessünk megint tiszta szívvel,
+És becsületesen kapjuk előjogaink.
+Mindazokat, miért mindnyájan epekedünk.
+A skót hírek a királyt oly felbőszítették,
+Hogy a hadjárathoz hozzájárulását adta.
+### Lennox
+Macbeth küldetett Macduffért?
+### Nemes
+Bizony, és nyers "Uram, én aztán nem!"
+Válaszára a komor küldönc hátat fordítva morgott,
+Mintha azt mondaná: "Keservesen megbánod,
+hogy ily válasszal terhelsz!"
+### Lennox
+Hát ez elég figyelmeztetés neki,
+Hogy óvatos távolságot tartson.
+Bárcsak egy gyorsröptű szent angyal vinné
+Az üzenetünk az angol királyhoz:
+Nagyon várjuk, hogy szenvedő országunk
+Felszabadítsa az átkozott uralom alól!
+### Nemes
+Imádkozom, hogy így legyen!
+
+*Kimennek, vége a harmadik felvonásnak*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
