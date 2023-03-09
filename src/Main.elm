@@ -26,6 +26,7 @@ import Html.Events exposing (onCheck, onClick)
 import Http
 import List exposing (filter)
 import Markdown
+import Array
 
 
 
@@ -50,9 +51,8 @@ type alias Model =
     { filestate : FileState
     , light : Light
     , homepage : String
-    , act1 : String
-    , act2 : String
-    , currentpage : String
+    , pages: List(Acts)
+    , currentpage : Acts
     , mobilemenu : MobileMenu
     , mobilenav : String
     }
@@ -73,26 +73,81 @@ type FileState
     | Loading
     | Success String
 
+type Acts
+    = Act1 
+    | Act2
+    | Act3
+    | Act4
+    | Act5
+    | Impressum
+    | Characters
+
+to_load : Acts -> String
+to_load act =
+    case act of
+        Act1 ->
+            "/files/macbeth_act_one_raw.txt"
+
+        Act2 ->
+            "/files/macbeth_act_two_raw.txt"
+
+        Act3 ->
+            "/files/macbeth_act_three_raw.txt"
+
+        Act4 ->
+            "/files/macbeth_act_four_raw.txt"
+
+        Act5 ->
+            "/files/macbeth_act_five_raw.txt"
+
+        Impressum ->
+            "/files/impressum.txt"
+
+        Characters ->
+            "/files/characters.txt"
+
+navtext : Acts -> String
+navtext act =
+    case act of
+        Act1 ->
+            "Első Felvonás"
+
+        Act2 ->
+            "Második Felvonás"
+
+        Act3 ->
+            "Harmadik Felvonás"
+
+        Act4 ->
+            "Negyedik Felvonás"
+
+        Act5 ->
+            "Ötödik Felvonás"
+
+        Impressum ->
+            "Impresszum"
+
+        Characters ->
+            "Szereplők"
 
 init : () -> ( Model, Cmd Msg )
 init _ =
     ( { filestate = Loading
-      , currentpage = "/files/macbeth_act_one_raw.txt"
+      , currentpage = Act1
       , homepage = "/"
-      , act1 = "/files/macbeth_act_one_raw.txt"
-      , act2 = "/files/macbeth_act_two_raw.txt"
+      , pages = [ Act1, Act2 ]
       , light = Day
       , mobilemenu = Closed
       , mobilenav = "closed"
       }
     , Http.get
-        { url = "/files/macbeth_act_one_raw.txt"
+        { url = to_load Act1
         , expect = Http.expectString GotText
         }
     )
 
 
-acts : Model -> String -> ( Model, Cmd Msg )
+acts : Model -> Acts -> ( Model, Cmd Msg )
 acts model page =
     ( { model
         | filestate = Loading
@@ -100,7 +155,7 @@ acts model page =
         , mobilenav = "closed"
       }
     , Http.get
-        { url = page
+        { url = to_load page
         , expect = Http.expectString GotText
         }
     )
@@ -124,14 +179,25 @@ daynightswitch check =
     else
         LetDay
 
+next_act : Model -> Acts
+next_act model =
+    let pages_array = Array.fromList model.pages
+        indexed_pages = Array.toIndexedList pages_array
+        current_index = List.filter (\( index, page ) -> page == model.currentpage) indexed_pages |> List.head |> Maybe.withDefault ( 0, Act1 ) |> Tuple.first
+        next_index = current_index + 1
 
+    in
+        
+    Array.get next_index pages_array |> Maybe.withDefault Act1
+    
+    
 
 -- UPDATE
 
 
 type Msg
     = GotText (Result Http.Error String)
-    | SwitchAct String
+    | SwitchAct Acts
     | LetDay
     | LetNight
     | MobileNav
@@ -140,8 +206,8 @@ type Msg
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
-        SwitchAct file ->
-            acts model file
+        SwitchAct page ->
+            acts model page
 
         GotText result ->
             case result of
@@ -183,18 +249,36 @@ navigationView : Model -> Html Msg
 navigationView model =
     div
         [ class ("navigation " ++ model.mobilenav) ]
+        
+        ( navButtonView model )
+        
+
+navButtonView : Model -> List(Html Msg)
+navButtonView model =
+    List.map
+        (\page ->
+            button
+                [ class "button"
+                , onClick <| SwitchAct page
+                ]
+                [ text <| navtext page ]
+        )
+        model.pages
+
+navigationNextView : Model -> Html Msg
+navigationNextView model =
+    div
+        [ class ("navigation " ++ model.mobilenav) ]
         [ button
             [ class "button"
-            , onClick <| SwitchAct model.act1
+            , onClick
+                ( model
+                    |> next_act
+                    |> SwitchAct
+                )
             ]
-            [ text "Első Felvonás" ]
-        , button
-            [ class "button"
-            , onClick <| SwitchAct model.act2
-            ]
-            [ text "Második Felvonás" ]
+            [ text "Következő Felvonás" ]
         ]
-
 
 viewPlay : Model -> Html Msg
 viewPlay model =
@@ -222,7 +306,7 @@ viewPlay model =
                 , div
                     [ class "footer"
                     ]
-                    [ navigationView model
+                    [ navigationNextView model
                     ]
                 ]
 
