@@ -266,7 +266,7 @@ navButtonView model =
 navigationNextView : Model -> Html Msg
 navigationNextView model =
     div
-        [ class ("navigation " ++ model.mobilenav) ]
+        [ class ("navigation ") ]
         [ button
             [ class "button"
             , onClick
@@ -275,7 +275,10 @@ navigationNextView model =
                     |> SwitchAct
                 )
             ]
-            [ text "Következő Felvonás" ]
+            [ model
+                |> next_act
+                |> navtext
+                |> text ]
         ]
 
 viewPlay : Model -> Html Msg
