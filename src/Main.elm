@@ -50,7 +50,6 @@ main =
 type alias Model =
     { filestate : FileState
     , light : Light
-    , homepage : String
     , pages: List(Acts)
     , currentpage : Acts
     , mobilemenu : MobileMenu
@@ -134,7 +133,6 @@ init : () -> ( Model, Cmd Msg )
 init _ =
     ( { filestate = Loading
       , currentpage = Act1
-      , homepage = "/"
       , pages = [ Act1, Act2 ]
       , light = Day
       , mobilemenu = Closed
