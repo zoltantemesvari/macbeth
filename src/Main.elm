@@ -7,10 +7,7 @@ import Html
         , button
         , div
         , h1
-        , h2
-        , h3
         , h4
-        , img
         , input
         , label
         , p
@@ -18,13 +15,13 @@ import Html
         )
 import Html.Attributes
     exposing
-        ( checked
-        , class
+        ( 
+          class
         , type_
         )
 import Html.Events exposing (onCheck, onClick)
 import Http
-import List exposing (filter)
+import List
 import Markdown
 import Array
 
@@ -50,7 +47,7 @@ main =
 type alias Model =
     { filestate : FileState
     , light : Light
-    , pages: List(Acts)
+    , pages : List(Acts)
     , currentpage : Acts
     , mobilemenu : MobileMenu
     , mobilenav : String
@@ -73,13 +70,13 @@ type FileState
     | Success String
 
 type Acts
-    = Act1 
+    = Characters
+    | Act1 
     | Act2
     | Act3
     | Act4
     | Act5
     | Impressum
-    | Characters
 
 to_load : Acts -> String
 to_load act =
@@ -133,7 +130,7 @@ init : () -> ( Model, Cmd Msg )
 init _ =
     ( { filestate = Loading
       , currentpage = Act1
-      , pages = [ Act1, Act2, Act3 ]
+      , pages = [ Characters, Act1, Act2, Act3, Act4 ]
       , light = Day
       , mobilemenu = Closed
       , mobilenav = "closed"
@@ -181,7 +178,7 @@ next_act : Model -> Acts
 next_act model =
     let pages_array = Array.fromList model.pages
         indexed_pages = Array.toIndexedList pages_array
-        current_index = List.filter (\( index, page ) -> page == model.currentpage) indexed_pages |> List.head |> Maybe.withDefault ( 0, Act1 ) |> Tuple.first
+        current_index = List.filter (\( _, page ) -> page == model.currentpage) indexed_pages |> List.head |> Maybe.withDefault ( 0, Act1 ) |> Tuple.first
         next_index = current_index + 1
 
     in
@@ -235,7 +232,7 @@ update msg model =
 
 
 subscriptions : Model -> Sub Msg
-subscriptions model =
+subscriptions _ =
     Sub.none
 
 
@@ -269,11 +266,10 @@ navigationNextView model =
         [ class ("navigation ") ]
         [ button
             [ class "button"
-            , onClick
-                ( model
+            , model
                     |> next_act
                     |> SwitchAct
-                )
+                    |> onClick
             ]
             [ model
                 |> next_act
