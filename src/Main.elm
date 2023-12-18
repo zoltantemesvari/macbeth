@@ -12,12 +12,14 @@ import Html
         , label
         , p
         , text
+        , img
         )
 import Html.Attributes
     exposing
         ( 
           class
         , type_
+        , src
         )
 import Html.Events exposing (onCheck, onClick)
 import Http
@@ -291,7 +293,25 @@ viewPlay model =
                 ]
 
         Loading ->
-            text "Töltés..."
+            div []
+                [ div
+                [ class "play"
+                ]
+                [ img
+                    [ src "/images/loading.gif"
+                    , class "loading"
+                    ]
+                    []
+                , h4
+                    []
+                    [ text "Kérjük, várjon türelemmel, a színdarab betöltése folyamatban van."
+                    ]
+                , h4
+                    []
+                    [ text "Ha a betöltés túl sokáig tart, kérjük, ellenőrizze az internetkapcsolatot."
+                    ]
+                ]
+                ]
 
         Success fullText ->
             div []
