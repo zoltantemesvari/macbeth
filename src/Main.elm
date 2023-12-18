@@ -82,25 +82,25 @@ to_load : Acts -> String
 to_load act =
     case act of
         Act1 ->
-            "/files/macbeth_act_one_raw.txt"
+            "/files/macbeth_act_one_final.txt"
 
         Act2 ->
-            "/files/macbeth_act_two_raw.txt"
+            "/files/macbeth_act_two_final.txt"
 
         Act3 ->
-            "/files/macbeth_act_three_raw.txt"
+            "/files/macbeth_act_three_final.txt"
 
         Act4 ->
-            "/files/macbeth_act_four_raw.txt"
+            "/files/macbeth_act_four_final.txt"
 
         Act5 ->
-            "/files/macbeth_act_five_raw.txt"
+            "/files/macbeth_act_five_final.txt"
 
         Impressum ->
-            "/files/impressum.txt"
+            "/files/macbeth_impressum.txt"
 
         Characters ->
-            "/files/characters.txt"
+            "/files/macbeth_szereplok.txt"
 
 navtext : Acts -> String
 navtext act =
@@ -130,7 +130,7 @@ init : () -> ( Model, Cmd Msg )
 init _ =
     ( { filestate = Loading
       , currentpage = Act1
-      , pages = [ Characters, Act1, Act2, Act3, Act4 ]
+      , pages = [ Characters, Act1, Act2, Act3, Act4, Act5, Impressum ]
       , light = Day
       , mobilemenu = Closed
       , mobilenav = "closed"

@@ -76,6 +76,15 @@ h4 {
   background-color: #171C28;
   color: whitesmoke;
   transition: background-color 1s;
+  a {
+    color: red;
+  };
+  a:hover {
+    color: yellow;
+  }
+  a:visited {
+    color: whitesmoke;
+  }
 }
 
 @keyframes slidein {
@@ -120,6 +129,7 @@ p {
 h3 {
   margin-top: 1.6rem;
   margin-bottom: 0.5rem;
+  text-transform: uppercase;
 }
 
 .button {

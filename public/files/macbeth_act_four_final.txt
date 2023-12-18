@@ -4,11 +4,11 @@
 
 ...
 ### Második nővér
-Csontjaimban érzem itt:  
-A sötétszívű érkezik!  
-(*kopogás*)  
-Hoppá, nyílj ki, zár!  
-Lássuk, odakint ki vár?  
+Csontjaimban érzem itt:
+A sötétszívű érkezik!
+(*kopogás*)
+Hoppá, nyílj ki, zár!
+Lássuk, odakint ki vár?
 
 *Belép Macbeth*
 
@@ -465,7 +465,7 @@ Nagyravágyó és élveteg,
 Vehemens, rosszindulatú,
 Kétszínű, kapzsi alak,
 Kiben minden elképzelhető bűn vegyül,
-De az én kéjvágyam feneketlen kútját,
+De kéjvágyam feneketlen kútját,
 Semennyi bujálkodás
 Se tudja  feltölteni!
 Előttem nincsenek biztonságban

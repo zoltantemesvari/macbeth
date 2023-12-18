@@ -524,7 +524,7 @@ Sok vért ontottak e helyt hajdanán,
 Ma már a törvény tiltja a bosszút,
 De hiába, azóta is megannyi a szörnyű gyilkosság.
 Voltak idők, mikor az ember, ha agya loccsant,
-Kipurcant, és annyi volt neki,
+Annyi volt neki és kipurcant
 Most még fején húsz végzetes sebbel
 Zombiként felkel
 És székünkről kitúr...
@@ -615,7 +615,7 @@ Elküldettél érte, uram?
 ### Macbeth
 Közvetve értesültem, de majd küldetek érte,
 Házában szolgál besúgóm beépítve.
-Holnap mielőbb felkeresem a fura nőket,
+Holnap mielőbb idehívom a fura nőket,
 Hogy több szóra bírjam őket,
 Válogatott eszközeim vannak,
 Majd megfeszülök, hogy többet megtudjak.
@@ -677,7 +677,7 @@ Akit ez a zsarnok a koronától visszatart,
 Az angol király: a legszentebb Edvárd vendége,
 Ki oly megtiszteltetéssel fogadta,
 Mintha Malcolm felséges posztját
-A balszerencse meg sem tépázta volna.
+A balszerencse meg se tépázta volna.
 Macduff is ott van, a szent királyhoz
 Könyörög segítségért, hogy az áldását adja
 Siwan hadúrra, ki Northumberland seregével
