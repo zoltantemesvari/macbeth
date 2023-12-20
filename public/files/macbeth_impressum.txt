@@ -1,9 +1,9 @@
 # Impresszum
-Fordította és a webapplikációt készítette: [Temesvári Zoltán](https://www.linkedin.com/in/zoltantemesvari/)
+Fordította és a webapplikációt készítette: [Temesvári Zoltán](https://www.linkedin.com/in/zoltantemesvari/), 2023
 
 A fordítás a Jonathan Bate és Eric Rassmussen által szerkesztett kritikai kiadás alapján történt ([Royal Shakespeare Company 2009, Macmillan](https://www.amazon.co.uk/Macbeth-RSC-Shakespeare-William/dp/0230576206/ref=sr_1_1?crid=3AH40U3CP7EGG&keywords=macbeth+jonathan+bate&qid=1700986961&sprefix=macbeth+jonathan+bate%2Caps%2C208&sr=8-1))
 
-A fordítást a szerző [Creative Commons Attribution-NonCommercial 4.0 International licensz](https://creativecommons.org/licenses/by-nc/4.0/#) alatt helyezi publikus domain-ben, mi szerint:
+A fordítást a szerző [Creative Commons Attribution-NonCommercial 4.0 International licensz](https://creativecommons.org/licenses/by-nc/4.0/#) alatt publikálja, mi szerint:
 - Ön szabadon másolhatja és terjesztheti a művet bármely médiumon keresztül és bármely formában
 - A mű bármely részlete szabadon adaptálható és tetszés szerint felhasználható  
     **Amennyiben**:
@@ -24,4 +24,4 @@ Sajnos az eredeti szöveg csak kiegészített, átszerkesztett, közvetlen szín
 Ennek szellemében nálam a "boszorkányok" a társadalom peremén élő nővérek, afféle javasasszonyok, a görög tragédiák jósai. A Hekatét szerepeltető színeket teljesen elhagytam.
 
 A fordítást készítve folyamatosan az lebegett a szemem előtt, hogy miként szeretném látni Macbeth-et a színpadon. Értelmezésemben a dialógusokban a szereplők mai nyelven beszélnek, a monológokban pedig a költőien.
-Míg a zene nyelve univerzális, tehát egy Bach-zenemű évszázadok múlva is befogadható és érthető, addig a beszélt és írott nyelv folyamatosan változik. Shakespeare közel 500 éve keletkezett remekművei igénylik és megérdemlik az újrafordítást időről-időre, hogy az angol zseni üzenete minden generáció számára friss maradjon.
+Míg a zene nyelve univerzális, tehát egy Bach-zenemű évszázadok múlva is befogadható és érthető, addig a beszélt és írott nyelv folyamatosan változik. Shakespeare közel öt évszázada keletkezett remekművei igénylik és megérdemlik az újrafordítást időről-időre, hogy az angol zseni üzenete minden generáció számára friss maradjon.

@@ -104,6 +104,8 @@ my-app/
     └── Tests.elm
 ```
 
+export NODE_OPTIONS=--openssl-legacy-provider
+
 For the project to build, these files must exist with exact filenames:
 
 * `public/index.html` is the page template;
