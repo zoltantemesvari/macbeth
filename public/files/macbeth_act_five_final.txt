@@ -1,5 +1,5 @@
-# Ötödik Felvonás
-## Első Szín
+# Ötödik felvonás
+## Első szín
 *Helyszín: Macbeth vára Dunsinane-ban. Belép egy orvos és egy udvarhölgy, a királyné öltöztetőnője*
 
 ### Orvos
@@ -73,7 +73,7 @@ Mosd meg a kezed és vedd fel hálóruhád! És ne légy olyan sápadt!
 Hányszor mondjam el, hogy Banquo halott: nem tud kijönni a sírból!
 ## Orvos
 Szóval így?
-### Machbethné
+### Macbethné
 Ágyba, ágyba! Kopognak a kapun: gyere, gyere már, add a kezed!  
 Amit tettél, nem lehet visszacsinálni. Ágyba, ágyba!
 *Kimegy*
@@ -250,7 +250,7 @@ Megfelelő erre a célra.
 Nem rettenthet halál és veszedelem
 Amíg a birnami erdő Dunsinane-ban nem terem!
 ### Orvos
-*Félre* Ha egyszer ebből a várból egyszer lelépek,  
+*Félre* Ha ebből a várból egyszer lelépek,  
 Nincs olyan pénz, amiért visszatérek.
 
 *Mindnyájan el*
@@ -406,7 +406,7 @@ Teli torokból hirdessék
 A halál és vér dalát!
 
 *Mind kimennek*
-## Hetedik Szín. A harcmező másik oldala.
+## Hetedik szín. A harcmező másik oldala.
 *Belép Macbeth*
 ### Macbeth
 Leláncolt medveként a harcot  
@@ -473,7 +473,7 @@ Igen, sokan már ellenállást sem tanúsítanak.
 Uram, fáradjon be a várba!
 
 *Kimennek. Kürtszó*
-## Hetedik Szín. A harcmező.
+## Hetedik szín. A harcmező.
 
 *Belép Macbeth*
 ### Macbeth

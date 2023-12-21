@@ -49,8 +49,6 @@ body {
 .title {
   display: block;
   font-size: clamp(1rem, -1rem + 4vw, 2rem);
-  background-color: #1f1c19;
-  opacity: 0.5;
   max-width: fit-content;
   padding: 1rem;
   margin:1rem auto;
@@ -63,6 +61,7 @@ h4 {
   opacity: none;
   line-height: 0.8rem;
   padding: 0.4rem;
+  margin-bottom: 0.5rem;
 
 }
 
@@ -100,16 +99,14 @@ h4 {
 }
 
 .header {
-  position: sticky;
   align-items: center;
   margin: 0;
-  height: 400px;
+  height: 380px;
   width: 100%;
   background-image: url('gustave_dore_the_scottish_highlands.jpg');
   background-position: center;
   background-size: cover;
 }
-
 
 .navigation {
   width: fit-content;
@@ -170,14 +167,19 @@ h3 {
     max-width: 40ch;
     margin: 1rem auto;
   }
+  .h1 {
+    font-size: clamp(1rem, -1rem + 4vw, 1.6rem);
+    margin:0;
+  }
+
   .header {
-    height: 280px;
+    height: 200px;
   }
   .open {
    background-color: #1f1c19;
    display: flex;
    flex-direction: column;
-   height: 200px;
+   height: 380px;
    width: 100vw;
    position: fixed;
    margin: 0;
@@ -198,6 +200,18 @@ h3 {
     position: fixed;
     bottom: 10px;
     right: 10px;
+  }
+
+  .night {
+    a {
+      color: red;
+    };
+    a:hover {
+      color: yellow;
+    }
+    a:visited {
+      color: whitesmoke;
+    }
   }
  
   @keyframes slidein {

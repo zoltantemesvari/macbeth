@@ -1,6 +1,6 @@
 # Második felvonás
 ## Első szín. Macbeth várának udvara.
-*Belép BANQUO és FLEANCE, aki egy fáklyát tart előtte*
+*Belép Banquo és Fleance, aki egy fáklyát tart előtte*
 
 ### BANQUO
 Mennyi idő lehet, fiam?
@@ -20,7 +20,7 @@ Nyájas angyalok, csitítsátok
 Az istenverte emlékeket, melyek   
 Nem hagynak pihenni!
 
-*Belép MACBETH és egy fáklyás szolga*
+*Belép Macbeth és egy fáklyás szolga*
 
 Add vissza gyorsan a kardom.  
 Ki az ott?
@@ -128,7 +128,7 @@ Ami a mennybe vagy a pokolba hív.
 ## Második szín. Ugyanott.
 
 *Macbethné bejön és megáll a király szobájának ajtaja előtt*
-### Machbethné
+### Macbethné
 A bor, mi őket kiütötte, az én tudatom kiélezte,  
 A szer, mi mételyezte őket, felszította tüzem.  
 Shh, mi ez a hang?  
@@ -152,7 +152,7 @@ Amiket férjem biztosan észrevett.
 Ha nem hasonlítana úgy alvó apámra,  
 A király, esküszöm, én szúrtam volna le!  
 
-*MACHBETH belép*
+*Macbeth belép*
 
 Férjecském!
 ### MACBETH
@@ -168,7 +168,7 @@ Most.
 Ahogy kijöttem?  
 ### Macbethné
 Igen.
-### MACHBETH
+### Macbeth
 Shh...ki alszik a szomszéd szobában?  
 ### Macbethné
 Donalbain, Duncan fia.  

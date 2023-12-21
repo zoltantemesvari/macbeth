@@ -1,5 +1,5 @@
 
-# Első Felvonás
+# Első felvonás
 ## Első szín: egy kihalt hely
 ### Első nővér
 Mikor jövünk megint össze hárman  
@@ -13,11 +13,11 @@ A másik megnyerte!
 Az még naplemente előtt lesz!
 ### Első nővér
 De hol?
-## Második nővér
+### Második nővér
 A lápnál.
-## Harmadik nővér
+### Harmadik nővér
 Ott találkozunk Macbeth-tel!
-## Első nővér
+### Első nővér
 Ott leszek, Fekete Macska!
 ### Második nővér
 Varangy is!
@@ -31,7 +31,7 @@ Ködbe tűnünk mind hamar!
 
 ## Második szín. Forres melletti tábor
 
-*Kürt szól. Belép DUNCAN (a király), MALCOLM, DONALBAIN és LENNOX kisérőkkel, ahol találkoznak egy vérző hadnaggyal*
+*Kürt szól. Belép Duncan (a király), Malcolm, Donalbain és Lennox kisérőkkel, ahol találkoznak egy sebesült hadnaggyal*
 
 ### DUNCAN
 Ki ez a sebesült? Úgy tűnik, ő talán beszámolhat  
@@ -109,7 +109,7 @@ Tízezer dollárt nem perkál.
 ### DUNCAN
 Cawdor thánja soha többé nem keresztezi tervünk:  
 Menj és hirdesd, hogy kivégezzük!  
-Címe és birtoka Machbethre száll.  
+Címe és birtoka Macbethre száll.  
 ### ROSS
 Úgy lesz, uram.
 ### DUNCAN
@@ -288,11 +288,11 @@ Segítette és pénzelte titokban, esetleg mindkettőben
 Vétkes ez az országnyomorító, nem tudhatom;  
 De beismert hazaárulása végül  
 Vesztére lett.
-### MACHBETH
+### MACBETH
 (*Félre*) Glamis, és Cawdor thánja! És még hátra van a java!  
 *ROSS-hoz és ANGUS-hoz fordulva*  
 Köszönöm fáradalmaitokat.  
-*BANQUO-hoz*  
+*Banquohoz*  
 Ezek után nem hiszed, hogy gyermekeid királyok lesznek?  
 Hiszen ezt jósolták azok, kik megmondták előre,  
 Hogy én leszek Cawdor thánja...  
@@ -418,7 +418,7 @@ Engedelmeddel, távoznék.
 ### DUNCAN
 Nemes Cawdorom!  
 ### MACBETH
-(*félre*) Cumberland Hercege...ez olyan akadály,   
+*Félre* Cumberland Hercege...ez olyan akadály,   
 Mit át kell ugorjak, vagy elbukom,   
 Csillagok, pislogjatok, ne lássátok ahogy  
 Sötét vágyaim elveszik eszem,  
