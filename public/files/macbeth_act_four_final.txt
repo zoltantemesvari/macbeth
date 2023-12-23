@@ -91,9 +91,9 @@ Fülelj csak, de ne szólj hozzá!
 Légy oroszlánszívű és szilárd!  
 Peregjen le rólad a sértés,  
 Konspirációval ne törődj,  
-Macbethet addig nem  győzhetik le, 
-Míg a birnami Nagyerdő fel nem vonul  
-A dunsinani várhegyre ellene!  
+Macbethet addig nem  győzhetik le,  
+Míg a birnami nagyerdő fel nem vonul  
+A dunsinane-i várhegyre ellene!  
 *Lesüllyed*
 ### Macbeth
 Sohanapján!  
@@ -229,7 +229,7 @@ Szembeszáll a bagollyal,
 Ha védelmezi fészkét!  
 Szeretet sehol, csak a puszta félsz,  
 Bölcsességnek nyomába se ér  
-Az vak menekülés.  
+A vak menekülés.  
 ### Ross
 Drága húgocskám,  
 Kérlek moderáld magad, ha másért nem,  

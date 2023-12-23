@@ -254,7 +254,7 @@ Ja, meg Cawdor thánja is...nem úgy mondták?
 ### BANQUO
 Pont ezekkel a szavakkal...De ki jön itt?  
 
-*ROSS és ANGUS belép*
+*Ross és Angus belép*
 ### ROSS
 A király örömmel vette sikereid hírét, Macbeth!  
 És mióta azt is megtudta, milyen személyes szereped volt  
@@ -289,7 +289,7 @@ Vétkes ez az országnyomorító, nem tudhatom;
 De beismert hazaárulása végül  
 Vesztére lett.
 ### MACBETH
-(*Félre*) Glamis, és Cawdor thánja! És még hátra van a java!  
+*Félre* Glamis, és Cawdor thánja! És még hátra van a java!  
 *ROSS-hoz és ANGUS-hoz fordulva*  
 Köszönöm fáradalmaitokat.  
 *Banquohoz*  
@@ -305,10 +305,10 @@ Sokszor a sötét erők igazat mondva,
 Súlyos következmények mocsarába rántanak.  
 Testvéreim, egy szó: imádkozom értetek!
 ### MACBETH:
-(*félre*) Két igazság hangzott itt el,  
+*Félre* Két igazság hangzott itt el,  
 Mint a divatos királydráma vidám előszava.  
 -- Köszönöm, uraim.
-*félre*  
+*Félre*  
 Nem lehet gonosz, de jó sem:  
 Ha gonosz: Miért hozta volna a megérdemelt sikert,  
 igazság képében? Én vagyok Cawdor thánja:  
@@ -321,7 +321,7 @@ Hogy ahogy volt, már semmi sem lesz úgy...
 ### BANQUO
 Nézzétek, társunk milyen elragadtatott...
 ### MACBETH
-(*Félre*)
+*Félre*
 Nos, ha a végzet királyt akar belőlem, akkor meg is fog koronázni,  
 Nekem nem kell semmit csinálni.
 ### BANQUO
@@ -329,7 +329,7 @@ Nekem nem kell semmit csinálni.
 Mint fura cuccaink, amik segítség nélkül  
 Nem is passzolnak ránk.
 ### MACBETH
-(*Félre*)
+*Félre*
 Jöjjön, aminek jönnie kell,  
 Egyszer még a legdurvább nap is  
 Elszelel!
@@ -368,7 +368,7 @@ Hogy dobja el drága éltét, mintha értéktelen kacat volna.
 Nem lehet az arcból kiolvasni, mit gondol az elme:  
 Úriember volt, és én mennyire megbíztam benne!  
 
-*Macbeth, BANQUO, ROSS és ANGUS lépnek be*
+*Macbeth, Banquo, Ross és Angus lépnek be*
 
 Ó legdrágább rokon!  
 A hálátlanság bűne terhelt: téged még a  
@@ -426,7 +426,7 @@ Szemem fél, hogy meglátja, mit tesz majd a kezem!
 
 *Kimegy*
 
-## Ötödik felvonás. Inverness - Macbeth vára.
+## Ötödik szín. Inverness - Macbeth vára.
 
 *Belép Macbethné egy levelet olvasva*
 ### Macbethné
@@ -486,29 +486,29 @@ Lásd el őt mindennel, fontos hírt közölt!
 
 *A Hírnök elmegy*
 
-Rekedten károgva üdvözli a királyt    
-A halálhozó vészmadár,  
-Ahogy kapunkon belép;  
-Gyertek, ti gyilkos gondolatot 
+A kapunkon belépő királyt
+Rekedten károgva üdvözli
+A halálhozó vészmadár; 
+Gyertek, ti gyilkos terveket 
 Kotyvasztó szellemek,  
-Irtsátok ki az emberséget,  
-Ami még bennem megrekedt,  
-Itasson át tetőtöl talpig  
+Irtsátok az emberséget,  
+Ami bennem még megrekedt,  
+Itasson át tetőtől talpig  
 Brutális kegyetlen nedvetek;  
 Sűrítsétek be a vérem,  
 Blokkoljátok a szánalom útjait,   
 Hogy egy cseppnyi megbánásba  
-Se fulladjanak céljaim.  
+Se fulladjanak céljaim, 
 Semhogy rés nőjön  
 A szándék és a cél között!  
-Gyertek, ti öldöklő papok  
-Adok nektek anyatejet,  
-Epe helyett,  
-Megszoptatlak benneteket!  
+Gyertek, ti öldöklő ügynökök,   
+Adok nektek csöcsöt,  
+Szopjatok epe helyett,  
+Keserű anyatejet!  
 Bárhol is legyetek,  
-Láthatatlan, rontó démonok!  
+Láthatatlan, rontó szellemek!  
 Gyere te is, te sűrű éj,  
-Telj meg fojtó pokolfüsttel,  
+Fojtó pokolfüsttel teli,  
 Hogy tőröm ne lássa a sebet, mit ejt,  
 És a sötét paplanon át még  
 Az angyalok se kukkoljanak,  

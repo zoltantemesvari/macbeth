@@ -71,7 +71,7 @@ Olyan alvajárót, ki ágyban, párnák közt halt meg.
 ### Macbethné
 Mosd meg a kezed és vedd fel hálóruhád! És ne légy olyan sápadt!  
 Hányszor mondjam el, hogy Banquo halott: nem tud kijönni a sírból!
-## Orvos
+### Orvos
 Szóval így?
 ### Macbethné
 Ágyba, ágyba! Kopognak a kapun: gyere, gyere már, add a kezed!  
@@ -231,7 +231,7 @@ Nincs valami ellenszer, mi édes feledést hozna,
 ### Orvos
 Attól tartok, ebben az esetben csak a beteg segíthet önmagán...
 ### Macbeth
-Szemétre való az tudományod, ha nem segít!  
+Szemétre való tudományod, ha nem segít!  
 *A szolgáknak* Gyerünk, segítsd fel a páncélom és add a fegyverem.  
 Seyton, küldd már a lovasokat! Doktor, thánjaim megcsaltak.  
 *Seytonnak* Te leléphesz.  
@@ -247,11 +247,11 @@ De, jóuram. A királyi sereg bizonyára
 Megfelelő erre a célra.
 ### Macbeth
 *A szolgáknak* Hozzátok utánam!
-Nem rettenthet halál és veszedelem
+Nem rettenthet halál és veszedelem  
 Amíg a birnami erdő Dunsinane-ban nem terem!
 ### Orvos
 *Félre* Ha ebből a várból egyszer lelépek,  
-Nincs olyan pénz, amiért visszatérek.
+Nincs annyi pénz, amiért visszatérek.
 
 *Mindnyájan el*
 ## Negyedik szín. A birnami erdő mellett.
@@ -294,7 +294,7 @@ Hát kardunk legyen az igazságszolgáltatás!
 Induljunk a háborúba!
 
 *Mind kimasíroznak*
-## Ötödik szín. A Dunsinane-i várban.
+## Ötödik szín. A dunsinane-i várban.
 *Belép Macbeth, Seyton katonákkal, dobokkal és zászlókkal*
 ### Macbeth
 Tűzzetek zászlókat a várfalra!  

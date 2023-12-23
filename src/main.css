@@ -75,15 +75,21 @@ h4 {
   background-color: #171C28;
   color: whitesmoke;
   transition: background-color 1s;
-  a {
-    color: red;
-  };
-  a:hover {
-    color: yellow;
-  }
-  a:visited {
-    color: whitesmoke;
-  }
+}
+
+a:link {
+  color: red;
+}
+
+a:hover {
+  background-color: yellow;
+  color: black;
+  text-decoration: dashed;
+}
+
+a:visited {
+  text-decoration: none;
+  color: salmon;
 }
 
 @keyframes slidein {
@@ -202,17 +208,6 @@ h3 {
     right: 10px;
   }
 
-  .night {
-    a {
-      color: red;
-    };
-    a:hover {
-      color: yellow;
-    }
-    a:visited {
-      color: whitesmoke;
-    }
-  }
  
   @keyframes slidein {
 
