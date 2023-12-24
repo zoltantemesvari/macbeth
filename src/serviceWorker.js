@@ -20,6 +20,28 @@ const isLocalhost = Boolean(
     )
 );
 
+const CACHE_NAME = 'v1';
+const URLS_TO_CACHE = [
+  '/files/macbeth_act_five_final.txt',
+  '/files/macbeth_act_four_final.txt',
+  '/files/macbeth_act_one_final.txt',
+  '/files/macbeth_act_three_final.txt',
+  '/files/macbeth_act_two_final.txt',
+  '/files/macbeth_szereplok.txt',
+  '/files/macbeth_impressum.txt',
+];
+
+self.addEventListener('install', event => {
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+      .then(cache => {
+        console.log('Opened cache');
+        return cache.addAll(URLS_TO_CACHE);
+      })
+  );
+});
+
+
 export function register(config) {
   if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
     // The URL constructor is available in all browsers that support SW.

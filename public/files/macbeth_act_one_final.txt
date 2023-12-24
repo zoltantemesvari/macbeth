@@ -7,7 +7,7 @@ Mennydörgésben, esőben vagy villámlásban?
 ### Második nővér
 Mikor a tumultus alábbhagy,  
 Mikor a csata abbamarad,  
-Amit egyik elveszett,  
+Amit egyik elvesztett,  
 A másik megnyerte!
 ### Harmadik nővér
 Az még naplemente előtt lesz!
@@ -74,7 +74,7 @@ Vérfürdőt akartak vagy egy új Golgotát?
 Nem tudhatom.  
 Mindjárt elájulok, sebeim ellátatlanok.  
 ### DUNCAN
-Becsületes minden szavad úgy, mind sebed. Vigyétek már orvoshoz!    
+Becsületes minden szavad úgy, mint sebed. Vigyétek már orvoshoz!    
 *Kikísérik a Hadnagyot*
 Ki jön itt?  
 
@@ -290,13 +290,13 @@ De beismert hazaárulása végül
 Vesztére lett.
 ### MACBETH
 *Félre* Glamis, és Cawdor thánja! És még hátra van a java!  
-*ROSS-hoz és ANGUS-hoz fordulva*  
+*Rosshoz és Angushoz fordulva*  
 Köszönöm fáradalmaitokat.  
 *Banquohoz*  
 Ezek után nem hiszed, hogy gyermekeid királyok lesznek?  
 Hiszen ezt jósolták azok, kik megmondták előre,  
 Hogy én leszek Cawdor thánja...  
-### BANQUO:
+### BANQUO
 Lehet, hogy ez a betalált jóslat  
 Téged gerjeszt fel a trónra, a tháni cím mellett...  
 Különös ez:  
@@ -304,7 +304,7 @@ Sokszor a sötét erők igazat mondva,
 Őszinte semmiségekkel nyernek meg minket, de közben  
 Súlyos következmények mocsarába rántanak.  
 Testvéreim, egy szó: imádkozom értetek!
-### MACBETH:
+### MACBETH
 *Félre* Két igazság hangzott itt el,  
 Mint a divatos királydráma vidám előszava.  
 -- Köszönöm, uraim.
@@ -486,9 +486,9 @@ Lásd el őt mindennel, fontos hírt közölt!
 
 *A Hírnök elmegy*
 
-A kapunkon belépő királyt
-Rekedten károgva üdvözli
-A halálhozó vészmadár; 
+A kapunkon belépő királyt  
+Rekedten károgva üdvözli  
+A halálhozó vészmadár;   
 Gyertek, ti gyilkos terveket 
 Kotyvasztó szellemek,  
 Irtsátok az emberséget,  
@@ -498,7 +498,7 @@ Brutális kegyetlen nedvetek;
 Sűrítsétek be a vérem,  
 Blokkoljátok a szánalom útjait,   
 Hogy egy cseppnyi megbánásba  
-Se fulladjanak céljaim, 
+Se fulladjanak céljaim,   
 Semhogy rés nőjön  
 A szándék és a cél között!  
 Gyertek, ti öldöklő ügynökök,   
@@ -556,9 +556,9 @@ A többit bízd csak rám!
 
 ## Hatodik szín. Macbeth vára előtt.
 
-*Dudások és fáklyások. Belép a KIRÁLY (DUNCAN),
-MALCOLM, DONALBAIN, BANQUO, LENNOX, MACDUFF,
-ROSS, ANGUS és kísérők*
+*Dudások és fáklyások. Belép a Király (Duncan),
+Malcolm, Donalbain, Banquo, Lennox, Macduff,
+Ross, Angus és kísérők*
 
 ### DUNCAN
 Ez a vár remek fekvésű;  
