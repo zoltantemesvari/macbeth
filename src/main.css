@@ -32,7 +32,6 @@ body {
   height: 100%;
   width: 100%;
   transition: transform 400ms ease;
-  overflow: scroll;
   animation-duration: 500ms;
   animation-name: slidein;
 }
@@ -137,9 +136,9 @@ h3 {
 
 .button {
   display: inline-block;
-  height: 3rem;
+  height: 2.4rem;
   width: fit-content;
-  padding: 0 30px;
+  padding: 0 18px;
   margin-top: 16px;
   margin-left: 5px;
   color: black;
