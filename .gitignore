@@ -15,3 +15,6 @@ node_modules
 
 # Old Main module
 src/Main_old.elm
+
+# Translation markdown files
+public/files/*.md
