@@ -17,4 +17,4 @@ node_modules
 src/Main_old.elm
 
 # Translation markdown files
-public/files/*.md
+public/files/*.txt
